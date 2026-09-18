@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #c5a880;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #fdfbf7;
+  color: #1c1917;
+  font-family: "Plus Jakarta Sans", "Open Sans", sans-serif;
+}
+
+::selection {
+  background: #e8b4b8;
+  color: #1c1917;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #faf4ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a880;
+  border-radius: 8px;
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid #e7e5e4;
+  border-radius: 0.6rem;
+  background: #fdfbf7;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: #1c1917;
+  transition: border-color 0.25s, box-shadow 0.25s;
+  outline: none;
+}
+.form-input::placeholder {
+  color: #a8a29e;
+}
+.form-input:focus {
+  border-color: #c5a880;
+  box-shadow: 0 0 0 3px rgba(197, 168, 128, 0.2);
+}
+
+.gold-line {
+  height: 1px;
+  width: 64px;
+  background: linear-gradient(90deg, transparent, #c5a880, transparent);
+}
+
+.reveal {
+  opacity: 0;
+}
+.reveal.in-view {
+  animation: revealUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
