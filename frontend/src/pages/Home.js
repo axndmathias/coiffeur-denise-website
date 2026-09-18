@@ -18,7 +18,7 @@ export default function Home() {
         {/* Portrait */}
         <div className="relative min-h-[48vh] lg:min-h-screen order-1 lg:order-2">
           <img
-            src="/hero-bg.jpg"
+            src={`${process.env.PUBLIC_URL}/hero-bg.jpg`}
             alt="Coiffeur Denise bridal beauty"
             className="absolute inset-0 w-full h-full object-cover object-top"
           />
