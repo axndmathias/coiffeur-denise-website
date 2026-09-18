@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <LanguageProvider>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <ScrollToTop />
           <Navbar />
           <main>
