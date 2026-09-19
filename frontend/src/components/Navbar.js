@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
 import { BRAND } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 
@@ -15,15 +15,20 @@ const ROUTES = [
 function LangSwitch({ className = "" }) {
   const { lang, setLang } = useLang();
   return (
-    <div className={`flex items-center gap-1 text-xs uppercase tracking-[0.18em] ${className}`}>
+    <div
+      className={`flex items-center gap-0.5 text-xs uppercase tracking-[0.18em] rounded-full border border-gold/40 bg-onyx/40 backdrop-blur-sm px-1.5 py-1 ${className}`}
+    >
+      <Globe size={12} className="text-gold ml-1 mr-0.5" />
       {["de", "en"].map((l, i) => (
         <React.Fragment key={l}>
-          {i > 0 && <span className="text-cream/30">/</span>}
+          {i > 0 && <span className="w-px h-3.5 bg-gold/25" />}
           <button
             data-testid={`lang-${l}`}
             onClick={() => setLang(l)}
-            className={`px-1 transition-colors ${
-              lang === l ? "text-gold" : "text-cream/60 hover:text-cream"
+            className={`px-2 py-0.5 rounded-full transition-all duration-300 ${
+              lang === l
+                ? "bg-gold text-onyx font-semibold shadow-[0_2px_8px_rgba(197,168,128,0.45)]"
+                : "text-cream/70 hover:text-gold"
             }`}
           >
             {l.toUpperCase()}
@@ -65,7 +70,7 @@ export default function Navbar() {
           <span className="font-serif text-xl sm:text-2xl tracking-[0.18em] text-cream font-semibold">
             {BRAND.logoTop}
           </span>
-          <span className="font-script text-2xl sm:text-3xl -mt-1 text-gold group-hover:text-blush transition-colors">
+          <span className="font-script text-3xl sm:text-4xl -mt-1 leading-none text-gold group-hover:text-blush transition-colors [text-shadow:0_1px_8px_rgba(0,0,0,0.85)]">
             {BRAND.logoScript}
           </span>
         </Link>

@@ -29,15 +29,12 @@ export default function Home() {
         <div className="relative z-10 flex items-center order-2 lg:order-1">
           <div className="w-full max-w-xl mx-auto px-6 sm:px-10 lg:px-16 py-14 lg:py-24 animate-fadeUp">
             <p className="flex items-center gap-3 text-gold text-xs uppercase tracking-[0.28em] mb-4">
-              <span className="h-px w-10 bg-gold" /> {t.hero.eyebrow}
+              <span className="h-px w-10 bg-gold" /> {t.hero.kicker}
             </p>
-            <p className="font-script text-5xl sm:text-6xl text-blush mb-2">{t.hero.script}</p>
-            <h1 className="font-serif text-5xl sm:text-7xl lg:text-8xl text-cream tracking-tight leading-[0.95] mb-6">
-              {t.hero.title}
+            <h1 className="font-serif font-light text-3xl sm:text-4xl lg:text-5xl text-cream tracking-tight leading-[1.15] mb-6">
+              {t.hero.quote1}{" "}
+              <span className="font-script font-normal italic text-blush">{t.hero.quote2}</span>
             </h1>
-            <p className="text-cream/85 text-lg sm:text-xl max-w-lg leading-relaxed mb-9">
-              {t.hero.subtitle}
-            </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 to="/book"

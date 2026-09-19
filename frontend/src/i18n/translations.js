@@ -18,7 +18,13 @@ const de = {
     script: "Coiffeur",
     title: "DENISE",
     tagline: "Brautstyling & Beauty",
-    subtitle: "Unvergessliche Eleganz für Ihren besonderen Tag",
+    kicker: "Brautstyling & Beauty in der Schweiz",
+    title1: "Strahlende Eleganz",
+    title2: "für deinen unvergesslichen Tag.",
+    subtitle:
+      "Perfekte Harmonie aus Make-up und Haaren – mit der Ruhe, Präzision und Hingabe, die dein grosser Moment verdient.",
+    quote1: "Was eine schöne Braut ausmacht, ist nicht das Kleid, nicht das Make-up und nicht das Haar …",
+    quote2: "sondern die Harmonie zwischen allen Elementen.",
     intro:
       "Ihr Ziel für den grossen Tag – Brautfrisuren, Probetermine und Glamour für die ganze Hochzeitsgesellschaft, dazu Styling für jeden Anlass.",
     book: "Termin buchen",
@@ -252,7 +258,13 @@ const en = {
     script: "Coiffeur",
     title: "DENISE",
     tagline: "Bridal Hair & Beauty",
-    subtitle: "Unforgettable Elegance for Your Special Day",
+    kicker: "Bridal Styling & Beauty in Switzerland",
+    title1: "Radiant elegance",
+    title2: "for your unforgettable day.",
+    subtitle:
+      "The perfect harmony of makeup and hair – with the calm, precision, and dedication your big moment deserves.",
+    quote1: "What makes a beautiful bride isn't the dress, the makeup, or the hair …",
+    quote2: "but the harmony between all the elements.",
     intro:
       "Your wedding-day beauty destination — bridal hair styling, trials, and glamour for the whole bridal party, with everyday styling too.",
     book: "Book Appointment",

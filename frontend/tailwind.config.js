@@ -13,9 +13,9 @@ module.exports = {
         "soft-pink": "#F3E0E2",
       },
       fontFamily: {
-        serif: ['Cinzel', 'Cormorant Garamond', 'serif'],
+        serif: ['Fraunces', 'Cormorant Garamond', 'serif'],
         cormorant: ['Cormorant Garamond', 'serif'],
-        script: ['Inspiration', 'cursive'],
+        script: ['Cormorant Garamond', 'serif'],
         sans: ['Plus Jakarta Sans', 'Open Sans', 'sans-serif'],
       },
       letterSpacing: {
