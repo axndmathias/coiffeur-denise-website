@@ -59,7 +59,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-20 lg:py-32 grid lg:grid-cols-2 gap-14 items-center">
         <Reveal className="relative">
           <img
-            src={IMAGES.essence}
+            src={`${process.env.PUBLIC_URL}/foto_66.jpg`}
             alt="The essence of Coiffeur Denise"
             className="rounded-2xl w-full h-[480px] object-cover shadow-xl"
           />

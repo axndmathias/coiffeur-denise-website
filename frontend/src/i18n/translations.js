@@ -33,9 +33,9 @@ const de = {
   home: {
     experience: "Jahre Erfahrung",
     essenceEyebrow: "Die Essenz",
-    essenceTitle: "Wo Ihre Hochzeitsvision zum Leben erwacht",
+    essenceTitle: "Wo deine Hochzeitsvision zum Leben erwacht",
     essenceBody:
-      "Coiffeur Denise verbindet Kunst und Inspiration und verwandelt Sie in die strahlendste Version Ihrer selbst. Vom Probetermin bis zum Gang zum Altar kreieren wir zeitlose, moderne Looks – für Sie und Ihre ganze Hochzeitsgesellschaft.",
+      "Mit meisterhafter Präzision, viel Liebe zum Detail und der nötigen Ruhe begleite ich dich an deinem besonderen Tag. Vom entspannten Probetermin bis zum perfekten Finish an deinem Wunschort – gemeinsam kreieren wir einen zeitlosen Look, der deine natürliche Schönheit strahlen lässt.",
     discover: "Unsere Geschichte entdecken",
     servicesEyebrow: "Unser Angebot",
     servicesTitle: "Unsere Leistungen",
@@ -273,9 +273,9 @@ const en = {
   home: {
     experience: "Years of Experience",
     essenceEyebrow: "The Essence",
-    essenceTitle: "Where your wedding-day vision comes to life",
+    essenceTitle: "Where your wedding vision comes to life",
     essenceBody:
-      "Coiffeur Denise is a fusion of artistry and inspiration that transforms you into the most radiant version of yourself. From bridal trials to the moment you walk down the aisle, we craft timeless, modern looks that are uniquely yours — for you and your whole bridal party.",
+      "With masterful precision, deep attention to detail, and the calm you deserve, I accompany you on your special day. From a relaxed trial to the flawless finish at your chosen venue – together we create a timeless look that lets your natural beauty shine.",
     discover: "Discover our story",
     servicesEyebrow: "What We Offer",
     servicesTitle: "Our Services",
