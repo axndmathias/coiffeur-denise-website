@@ -71,6 +71,31 @@ const de = {
     fullGallery: "Ganze Galerie",
     hoursTitle: "Öffnungszeiten",
     hoursSub: "Wir freuen uns auf Ihren Besuch.",
+    kundenEyebrow: "Kundenstimmen",
+    kundenTitle: "Was unsere Kundinnen über uns sagen",
+    testimonials: [
+      {
+        name: "Daphne Sangiorgio",
+        detail: "Braut-Styling & Hochzeitsgesellschaft",
+        rating: 5,
+        source: "Google",
+        text: "Denise hat an unserer Hochzeit meine Haare, die meiner Brautjungfern und einiger Gäste vor Ort gestylt. Es war unglaublich unkompliziert und schnell. Alle Frisuren waren wunderschön, individuell und haben lange gehalten. Ich kann sie von Herzen weiterempfehlen!",
+      },
+      {
+        name: "Melanie (meelaaniiee1879)",
+        detail: "Braut-Styling & Make-up",
+        rating: 5,
+        source: "Instagram",
+        text: "Herzlichen Dank für die wunderschöne Frisur und das Schminken. Danke für alles!",
+      },
+      {
+        name: "Ciara (ciarlaschneckenburger)",
+        detail: "Styling-Feedback",
+        rating: 5,
+        source: "Instagram",
+        text: "Wunderschön, du bist eine wahre Haarkünstlerin!",
+      },
+    ],
   },
   about: {
     heroEyebrow: "Unsere Geschichte",
@@ -333,6 +358,31 @@ const en = {
     fullGallery: "Full gallery",
     hoursTitle: "Studio Hours",
     hoursSub: "We look forward to welcoming you.",
+    kundenEyebrow: "Testimonials",
+    kundenTitle: "What our clients say about us",
+    testimonials: [
+      {
+        name: "Daphne Sangiorgio",
+        detail: "Bridal Styling & Wedding Party",
+        rating: 5,
+        source: "Google",
+        text: "Denise hat an unserer Hochzeit meine Haare, die meiner Brautjungfern und einiger Gäste vor Ort gestylt. Es war unglaublich unkompliziert und schnell. Alle Frisuren waren wunderschön, individuell und haben lange gehalten. Ich kann sie von Herzen weiterempfehlen!",
+      },
+      {
+        name: "Melanie (meelaaniiee1879)",
+        detail: "Bridal Styling & Make-up",
+        rating: 5,
+        source: "Instagram",
+        text: "Herzlichen Dank für die wunderschöne Frisur und das Schminken. Danke für alles!",
+      },
+      {
+        name: "Ciara (ciarlaschneckenburger)",
+        detail: "Styling Feedback",
+        rating: 5,
+        source: "Instagram",
+        text: "Wunderschön, du bist eine wahre Haarkünstlerin!",
+      },
+    ],
   },
   about: {
     heroEyebrow: "Our Story",

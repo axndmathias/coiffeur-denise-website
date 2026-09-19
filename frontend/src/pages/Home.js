@@ -4,6 +4,7 @@ import { ArrowRight, Clock } from "lucide-react";
 import { IMAGES, BRIDE_EXPERIENCE } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
+import Testimonials from "../components/Testimonials";
 import { CtaBand } from "../components/PageHero";
 
 export default function Home() {
@@ -63,7 +64,7 @@ export default function Home() {
             className="rounded-2xl w-full h-[480px] object-cover shadow-xl"
           />
           <div className="absolute -bottom-6 -right-2 sm:-right-6 bg-onyx text-cream rounded-2xl px-7 py-5 shadow-2xl">
-            <p className="font-serif text-3xl text-gold">10+</p>
+            <p className="font-serif text-3xl text-gold">20+</p>
             <p className="text-xs uppercase tracking-[0.2em] text-cream/70">{t.home.experience}</p>
           </div>
         </Reveal>
@@ -124,6 +125,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* KUNDENSTIMMEN */}
+      <Testimonials />
 
       {/* GALLERY PREVIEW */}
       <section className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-20 lg:py-32">
