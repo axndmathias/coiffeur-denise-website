@@ -37,6 +37,28 @@ const de = {
     essenceBody:
       "Mit meisterhafter Präzision, viel Liebe zum Detail und der nötigen Ruhe begleite ich dich an deinem besonderen Tag. Vom entspannten Probetermin bis zum perfekten Finish an deinem Wunschort – gemeinsam kreieren wir einen zeitlosen Look, der deine natürliche Schönheit strahlen lässt.",
     discover: "Unsere Geschichte entdecken",
+    brideKicker: "Die Braut-Erfahrung",
+    brideTitle: "In wenigen Schritten zu deinem perfekten Look",
+    brideCards: [
+      {
+        title: "Beratungs- & Probetermin",
+        body:
+          "Unverbindliche Anfrage für dein Wunschdatum, gefolgt von einem entspannten Probetermin in unserem Salon. Wir kreieren deinen Look perfekt abgestimmt auf dein Kleid und deinen Stil.",
+        cta: "Termin anfragen",
+      },
+      {
+        title: "Der Hochzeitstag (On-Location)",
+        body:
+          "An deinem grossen Tag komme ich direkt an deinen Wunschort. Pünktlich, ruhig und hochprofessionell, damit du deine Vorbereitung in voller Gelassenheit geniessen kannst.",
+        cta: "Jetzt anfragen",
+      },
+      {
+        title: "Deine Hochzeitsgesellschaft",
+        body:
+          "Exklusiver Styling-Service auch für deine Mutter, Trauzeuginnen und liebsten Gästinnen. Ein harmonisches Gesamtbild für euren besonderen Tag.",
+        cta: "Mehr erfahren",
+      },
+    ],
     servicesEyebrow: "Unser Angebot",
     servicesTitle: "Unsere Leistungen",
     service: "Leistung",
@@ -277,6 +299,28 @@ const en = {
     essenceBody:
       "With masterful precision, deep attention to detail, and the calm you deserve, I accompany you on your special day. From a relaxed trial to the flawless finish at your chosen venue – together we create a timeless look that lets your natural beauty shine.",
     discover: "Discover our story",
+    brideKicker: "The Bride Experience",
+    brideTitle: "A few simple steps to your perfect look",
+    brideCards: [
+      {
+        title: "Consultation & Trial Appointment",
+        body:
+          "A no-obligation request for your preferred date, followed by a relaxed trial in our salon. We craft your look perfectly matched to your dress and style.",
+        cta: "Request Appointment",
+      },
+      {
+        title: "The Wedding Day (On-Location)",
+        body:
+          "On your big day I come directly to your chosen venue. Punctual, calm, and highly professional, so you can enjoy your preparations in complete serenity.",
+        cta: "Enquire Now",
+      },
+      {
+        title: "Your Bridal Party",
+        body:
+          "Exclusive styling service for your mother, bridesmaids, and dearest guests. A harmonious overall look for your special day.",
+        cta: "Learn More",
+      },
+    ],
     servicesEyebrow: "What We Offer",
     servicesTitle: "Our Services",
     service: "service",

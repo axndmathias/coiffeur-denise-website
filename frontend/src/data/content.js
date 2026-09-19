@@ -40,3 +40,24 @@ export const INSTAGRAM_FEED = [
   IMAGES.essence,
   IMAGES.serviceGlam,
 ];
+
+export const BRIDE_EXPERIENCE = [
+  {
+    image: `${process.env.PUBLIC_URL}/foto_40.jpg`,
+    alt: "Eleganter Braut-Coiffure Probetermin im Salon",
+    href:
+      "https://wa.me/41798666707?text=Hallo%20Denise%2C%20ich%20m%C3%B6chte%20einen%20Probetermin%20anfragen",
+  },
+  {
+    image: `${process.env.PUBLIC_URL}/foto_39.jpg`,
+    alt: "Denise beim Styling einer Braut am Hochzeitstag",
+    href:
+      "https://wa.me/41798666707?text=Hallo%20Denise%2C%20ich%20m%C3%B6chte%20die%20Verf%C3%BCgbarkeit%20f%C3%BCr%20meinen%20Hochzeitstag%20anfragen",
+  },
+  {
+    image: `${process.env.PUBLIC_URL}/foto_41.jpg`,
+    alt: "Styling-Service für Brautjungfern und Gäste",
+    href:
+      "https://wa.me/41798666707?text=Hallo%20Denise%2C%20ich%20habe%20eine%20Frage%20zum%20Styling%20f%C3%BCr%20meine%20G%C3%A4ste",
+  },
+];

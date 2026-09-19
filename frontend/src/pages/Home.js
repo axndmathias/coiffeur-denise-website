@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Sparkles, Clock } from "lucide-react";
-import { IMAGES } from "../data/content";
+import { ArrowRight, Clock } from "lucide-react";
+import { IMAGES, BRIDE_EXPERIENCE } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
 import { CtaBand } from "../components/PageHero";
 
 export default function Home() {
   const { t } = useLang();
-  const highlights = t.services.categories;
   const galleryPreview = t.gallery.items.slice(0, 4);
 
   return (
@@ -85,54 +84,43 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* SERVICE HIGHLIGHTS */}
+      {/* BRIDE EXPERIENCE */}
       <section className="bg-cream-2 py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
           <Reveal className="text-center mb-14">
-            <p className="text-xs uppercase tracking-[0.28em] text-gold mb-3">{t.home.servicesEyebrow}</p>
-            <h2 className="font-serif text-3xl sm:text-4xl tracking-tight">{t.home.servicesTitle}</h2>
+            <p className="text-xs uppercase tracking-[0.28em] text-gold mb-3">{t.home.brideKicker}</p>
+            <h2 className="font-serif text-3xl sm:text-4xl tracking-tight">{t.home.brideTitle}</h2>
             <div className="gold-line mx-auto mt-5" />
           </Reveal>
           <div className="grid md:grid-cols-3 gap-8">
-            {highlights.map((cat, i) => (
-              <Reveal key={cat.name} delay={i * 120}>
+            {t.home.brideCards.map((card, i) => (
+              <Reveal key={card.title} delay={i * 120}>
                 <div
                   data-testid={`home-service-${i}`}
                   className="group bg-white rounded-2xl overflow-hidden border border-stone-200/70 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full flex flex-col"
                 >
-                  <div className="h-56 overflow-hidden">
+                  <div className="aspect-[4/3] overflow-hidden">
                     <img
-                      src={cat.image}
-                      alt={cat.name}
+                      src={BRIDE_EXPERIENCE[i].image}
+                      alt={BRIDE_EXPERIENCE[i].alt}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                   </div>
                   <div className="p-7 flex flex-col flex-1">
-                    <Sparkles size={20} className="text-gold mb-3" />
-                    <h3 className="font-serif text-xl mb-2">{cat.name}</h3>
-                    <p className="text-sm text-stone-500 mb-5 flex-1">
-                      {cat.items.length} {cat.items.length > 1 ? t.home.services : t.home.service}
-                      {cat.items[0].price.startsWith("CHF") ? ` · ${t.home.from} ${cat.items[0].price}` : ""}
-                    </p>
-                    <Link
-                      to="/services"
-                      className="text-xs uppercase tracking-[0.2em] text-onyx group-hover:text-gold flex items-center gap-2 transition-colors"
+                    <h3 className="font-serif text-xl mb-3">{card.title}</h3>
+                    <p className="text-sm text-stone-500 mb-6 flex-1 leading-relaxed">{card.body}</p>
+                    <a
+                      href={BRIDE_EXPERIENCE[i].href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-gold group-hover:text-onyx transition-colors"
                     >
-                      {t.home.viewDetails} <ArrowRight size={14} />
-                    </Link>
+                      {card.cta} <ArrowRight size={14} />
+                    </a>
                   </div>
                 </div>
               </Reveal>
             ))}
-          </div>
-          <div className="text-center mt-12">
-            <Link
-              to="/services"
-              data-testid="home-all-services-btn"
-              className="inline-block rounded-full border border-onyx/30 px-9 py-4 text-xs uppercase tracking-[0.22em] hover:bg-onyx hover:text-cream transition-all duration-300"
-            >
-              {t.home.viewAll}
-            </Link>
           </div>
         </div>
       </section>
