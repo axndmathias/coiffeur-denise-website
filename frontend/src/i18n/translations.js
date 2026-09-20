@@ -119,6 +119,9 @@ const de = {
         text: "Perfekter Schnitt & tolle Ausstrahlung! Wer auf der Suche nach einer Friseurin ist, die ihr Handwerk wirklich versteht und ein Auge für den passenden Typ hat, muss zu Denise.",
       },
     ],
+    ctaEyebrow: "Dein unvergesslicher Moment",
+    ctaTitle: "Bereit für deine Traumfrisur? Lass uns deinen großen Tag planen.",
+    ctaButton: "Probetermin anfragen",
   },
   about: {
     heroEyebrow: "Unsere Geschichte",
@@ -429,6 +432,9 @@ const en = {
         text: "Perfekter Schnitt & tolle Ausstrahlung! Wer auf der Suche nach einer Friseurin ist, die ihr Handwerk wirklich versteht und ein Auge für den passenden Typ hat, muss zu Denise.",
       },
     ],
+    ctaEyebrow: "Your Unforgettable Moment",
+    ctaTitle: "Ready for your dream hairstyle? Let's plan your big day.",
+    ctaButton: "Request a Trial Appointment",
   },
   about: {
     heroEyebrow: "Our Story",

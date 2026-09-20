@@ -166,6 +166,38 @@ export default function Home() {
       {/* KUNDENSTIMMEN */}
       <Testimonials />
 
+      {/* CTA */}
+      <section
+        data-testid="home-cta"
+        className="relative overflow-hidden bg-onyx text-center"
+      >
+        <img
+          src={`${process.env.PUBLIC_URL}/foto_3.jpg`}
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-onyx/70" />
+        <div className="relative z-10 max-w-3xl mx-auto px-6 sm:px-8 py-20 lg:py-28">
+          <Reveal>
+            <p className="text-gold text-xs uppercase tracking-[0.28em] mb-4">
+              {t.home.ctaEyebrow}
+            </p>
+            <h2 className="font-serif text-2xl sm:text-4xl lg:text-5xl text-cream leading-tight mb-8">
+              {t.home.ctaTitle}
+            </h2>
+            <Link
+              to="/book"
+              data-testid="home-cta-btn"
+              className="inline-block rounded-full bg-gold text-onyx px-10 py-4 text-xs uppercase tracking-[0.22em] hover:bg-blush transition-all duration-300"
+            >
+              {t.home.ctaButton} <ArrowRight size={16} className="inline -mt-0.5" />
+            </Link>
+          </Reveal>
+        </div>
+      </section>
+
       {/* GALLERY PREVIEW */}
       <section className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-20 lg:py-32">
         <Reveal className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
