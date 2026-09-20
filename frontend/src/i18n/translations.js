@@ -84,13 +84,6 @@ const de = {
     kundenTitle: "Was unsere Kundinnen über uns sagen",
     testimonials: [
       {
-        name: "Daphne Sangiorgio",
-        detail: "Braut-Styling & Hochzeitsgesellschaft",
-        rating: 5,
-        source: "Google",
-        text: "Denise hat an unserer Hochzeit meine Haare, die meiner Brautjungfern und einiger Gäste vor Ort gestylt. Es war unglaublich unkompliziert und schnell. Alle Frisuren waren wunderschön, individuell und haben lange gehalten. Ich kann sie von Herzen weiterempfehlen!",
-      },
-      {
         name: "Melanie (meelaaniiee1879)",
         detail: "Braut-Styling & Make-up",
         rating: 5,
@@ -103,6 +96,27 @@ const de = {
         rating: 5,
         source: "Instagram",
         text: "Wunderschön, du bist eine wahre Haarkünstlerin!",
+      },
+      {
+        name: "Anita Studer (DeinWandel)",
+        detail: "Coiffure & Styling",
+        rating: 5,
+        source: "Google",
+        text: "Denise ist eine talentierte Coiffeuse, die ihr Handwerk wirklich versteht. Sie arbeitet präzise, legt großen Wert auf Qualität und findet immer genau den Stil.",
+      },
+      {
+        name: "Daphne Sangiorgio",
+        detail: "Braut-Styling & Hochzeitsgesellschaft",
+        rating: 5,
+        source: "Google",
+        text: "Denise hat mir, meinen Trauzeuginnen und einigen Gästen für unsere Hochzeit vor Ort die Frisuren gemacht. Sie ist super unkompliziert und sehr schnell. Die Frisuren waren alle unterschiedlich, sehr schön und haben lange gehalten. Sehr feines Preis-Leistungs-Verhältnis. Ich kann sie wärmstens empfehlen. Vielen Dank Denise!",
+      },
+      {
+        name: "Love Familie",
+        detail: "Schnitt & Ausstrahlung",
+        rating: 5,
+        source: "Google",
+        text: "Perfekter Schnitt & tolle Ausstrahlung! Wer auf der Suche nach einer Friseurin ist, die ihr Handwerk wirklich versteht und ein Auge für den passenden Typ hat, muss zu Denise.",
       },
     ],
   },
@@ -380,13 +394,6 @@ const en = {
     kundenTitle: "What our clients say about us",
     testimonials: [
       {
-        name: "Daphne Sangiorgio",
-        detail: "Bridal Styling & Wedding Party",
-        rating: 5,
-        source: "Google",
-        text: "Denise hat an unserer Hochzeit meine Haare, die meiner Brautjungfern und einiger Gäste vor Ort gestylt. Es war unglaublich unkompliziert und schnell. Alle Frisuren waren wunderschön, individuell und haben lange gehalten. Ich kann sie von Herzen weiterempfehlen!",
-      },
-      {
         name: "Melanie (meelaaniiee1879)",
         detail: "Bridal Styling & Make-up",
         rating: 5,
@@ -399,6 +406,27 @@ const en = {
         rating: 5,
         source: "Instagram",
         text: "Wunderschön, du bist eine wahre Haarkünstlerin!",
+      },
+      {
+        name: "Anita Studer (DeinWandel)",
+        detail: "Hair & Styling",
+        rating: 5,
+        source: "Google",
+        text: "Denise ist eine talentierte Coiffeuse, die ihr Handwerk wirklich versteht. Sie arbeitet präzise, legt großen Wert auf Qualität und findet immer genau den Stil.",
+      },
+      {
+        name: "Daphne Sangiorgio",
+        detail: "Bridal Styling & Wedding Party",
+        rating: 5,
+        source: "Google",
+        text: "Denise hat mir, meinen Trauzeuginnen und einigen Gästen für unsere Hochzeit vor Ort die Frisuren gemacht. Sie ist super unkompliziert und sehr schnell. Die Frisuren waren alle unterschiedlich, sehr schön und haben lange gehalten. Sehr feines Preis-Leistungs-Verhältnis. Ich kann sie wärmstens empfehlen. Vielen Dank Denise!",
+      },
+      {
+        name: "Love Familie",
+        detail: "Haircut & Style",
+        rating: 5,
+        source: "Google",
+        text: "Perfekter Schnitt & tolle Ausstrahlung! Wer auf der Suche nach einer Friseurin ist, die ihr Handwerk wirklich versteht und ein Auge für den passenden Typ hat, muss zu Denise.",
       },
     ],
   },
