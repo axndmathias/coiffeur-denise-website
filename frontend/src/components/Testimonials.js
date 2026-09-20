@@ -5,7 +5,11 @@ import { IMAGES } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "./Reveal";
 
-const STACK_IMAGES = [IMAGES.bridal, IMAGES.essence, IMAGES.serviceGlam];
+const STACK_IMAGES = [
+  IMAGES.bridal,
+  `${process.env.PUBLIC_URL}/foto_77.jpg`,
+  IMAGES.serviceGlam,
+];
 
 export default function Testimonials() {
   const { t } = useLang();

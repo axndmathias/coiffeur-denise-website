@@ -59,6 +59,15 @@ const de = {
         cta: "Mehr erfahren",
       },
     ],
+    stressEyebrow: "Dein grosser Tag",
+    stressTitle: "Stressfrei & entspannt in den Tag starten",
+    stressBody:
+      "Kein Zeitdruck, keine Hektik: Mit einem persönlich auf dich abgestimmten Zeitplan sorge ich dafür, dass am Hochzeitstag alles reibungslos läuft. Während dein Look mit Ruhe und Präzision entsteht, kannst du entspannt deinen Kaffee geniessen und dich ganz auf den schönsten Moment deines Lebens freuen.",
+    stressPoints: [
+      { title: "Persönlicher Zeitplan", body: "Massgeschneidert auf deinen Hochzeitstag." },
+      { title: "Pünktlich & zuverlässig", body: "Damit du dich um nichts kümmern musst." },
+      { title: "Langanhaltender Look", body: "Vom ersten Foto bis zum letzten Tanz." },
+    ],
     servicesEyebrow: "Unser Angebot",
     servicesTitle: "Unsere Leistungen",
     service: "Leistung",
@@ -345,6 +354,15 @@ const en = {
           "Exclusive styling service for your mother, bridesmaids, and dearest guests. A harmonious overall look for your special day.",
         cta: "Learn More",
       },
+    ],
+    stressEyebrow: "Your Big Day",
+    stressTitle: "Start the day stress-free and relaxed",
+    stressBody:
+      "No time pressure, no rush: with a schedule tailored personally to you, I make sure everything runs smoothly on your wedding day. While your look comes together with calm and precision, you can enjoy your coffee and look forward to the most beautiful moment of your life.",
+    stressPoints: [
+      { title: "Personal Schedule", body: "Tailored to your wedding day." },
+      { title: "Punctual & Reliable", body: "So you don't have to worry about a thing." },
+      { title: "Long-Lasting Look", body: "From the first photo to the last dance." },
     ],
     servicesEyebrow: "What We Offer",
     servicesTitle: "Our Services",

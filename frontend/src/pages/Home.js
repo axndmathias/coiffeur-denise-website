@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Clock } from "lucide-react";
+import { ArrowRight, Clock, Check } from "lucide-react";
 import { IMAGES, BRIDE_EXPERIENCE } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
@@ -59,7 +59,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-20 lg:py-32 grid lg:grid-cols-2 gap-14 items-center">
         <Reveal className="relative">
           <img
-            src={`${process.env.PUBLIC_URL}/foto_66.jpg`}
+            src={`${process.env.PUBLIC_URL}/foto_55.jpg`}
             alt="The essence of Coiffeur Denise"
             className="rounded-2xl w-full h-[480px] object-cover shadow-xl"
           />
@@ -123,6 +123,43 @@ export default function Home() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* STRESSFREI AM HOCHZEITSTAG */}
+      <section className="py-20 lg:py-32" style={{ backgroundColor: "#FBF9F5" }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 grid lg:grid-cols-2 gap-14 items-center">
+          <Reveal>
+            <p className="text-xs uppercase tracking-[0.28em] text-gold mb-4">{t.home.stressEyebrow}</p>
+            <h2 className="font-serif text-3xl sm:text-4xl tracking-tight mb-6 leading-tight">
+              {t.home.stressTitle}
+            </h2>
+            <div className="gold-line mb-6" />
+            <p className="text-stone-600 leading-relaxed mb-8">{t.home.stressBody}</p>
+            <ul className="space-y-5">
+              {t.home.stressPoints.map((p) => (
+                <li key={p.title} className="flex items-start gap-4">
+                  <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold/15 text-gold">
+                    <Check size={16} strokeWidth={2.5} />
+                  </span>
+                  <span>
+                    <span className="block font-serif text-lg text-onyx">{p.title}</span>
+                    <span className="block text-sm text-stone-500">{p.body}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+          <Reveal delay={120} className="relative">
+            <div className="rounded-2xl overflow-hidden border border-white shadow-xl">
+              <img
+                src={`${process.env.PUBLIC_URL}/foto_6.jpg`}
+                alt="Entspannte Vorbereitung am Hochzeitstag"
+                loading="lazy"
+                className="w-full h-[420px] sm:h-[520px] object-cover"
+              />
+            </div>
+          </Reveal>
         </div>
       </section>
 

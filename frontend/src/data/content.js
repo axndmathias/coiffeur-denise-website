@@ -43,7 +43,7 @@ export const INSTAGRAM_FEED = [
 
 export const BRIDE_EXPERIENCE = [
   {
-    image: `${process.env.PUBLIC_URL}/foto_40.jpg`,
+    image: `${process.env.PUBLIC_URL}/foto_56.jpg`,
     alt: "Eleganter Braut-Coiffure Probetermin im Salon",
     href:
       "https://wa.me/41798666707?text=Hallo%20Denise%2C%20ich%20m%C3%B6chte%20einen%20Probetermin%20anfragen",
