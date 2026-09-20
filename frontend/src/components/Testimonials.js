@@ -46,9 +46,9 @@ export default function Testimonials() {
           <div className="gold-line mx-auto mt-5" />
         </Reveal>
 
-        <div className="relative grid lg:grid-cols-2 gap-14 items-center">
+        <div className="relative grid lg:grid-cols-2 gap-16 lg:gap-14 items-center">
           {/* Overlapping image stack */}
-          <Reveal className="relative h-[300px] sm:h-[420px] lg:h-[520px]">
+          <Reveal className="relative h-[400px] sm:h-[420px] lg:h-[520px]">
             <div className="absolute top-4 sm:top-6 left-0 w-[70%] lg:w-[72%] rotate-[-4deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
               <img src={STACK_IMAGES[0]} alt="" className="w-full aspect-[3/4] object-cover" />
             </div>
