@@ -61,3 +61,22 @@ export const BRIDE_EXPERIENCE = [
       "https://wa.me/41798666707?text=Hallo%20Denise%2C%20ich%20habe%20eine%20Frage%20zum%20Styling%20f%C3%BCr%20meine%20G%C3%A4ste",
   },
 ];
+
+export const PORTFOLIO = [
+  {
+    image: `${process.env.PUBLIC_URL}/foto_79.jpg`,
+    alt: "Elegantes Apanhado mit Perlen- und Kristall-Accessoire",
+  },
+  {
+    image: `${process.env.PUBLIC_URL}/foto_73.jpg`,
+    alt: "Hochsteckfrisur mit Zöpfen und rosa Blumen",
+  },
+  {
+    image: `${process.env.PUBLIC_URL}/foto_72.jpg`,
+    alt: "Apanhado mit texturierten Wellen",
+  },
+  {
+    image: `${process.env.PUBLIC_URL}/foto_75.jpg`,
+    alt: "Semi-preso Hochsteckfrisur mit Tiara",
+  },
+];

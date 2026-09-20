@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Clock, Check } from "lucide-react";
-import { IMAGES, BRIDE_EXPERIENCE } from "../data/content";
+import { IMAGES, BRIDE_EXPERIENCE, PORTFOLIO } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
 import Testimonials from "../components/Testimonials";
@@ -9,7 +9,6 @@ import { CtaBand } from "../components/PageHero";
 
 export default function Home() {
   const { t } = useLang();
-  const galleryPreview = t.gallery.items.slice(0, 4);
 
   return (
     <div data-testid="home-page">
@@ -214,12 +213,13 @@ export default function Home() {
           </Link>
         </Reveal>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          {galleryPreview.map((g, i) => (
+          {PORTFOLIO.map((g, i) => (
             <Reveal key={i} delay={i * 100}>
               <div className="group overflow-hidden rounded-xl aspect-[3/4]">
                 <img
-                  src={g.src}
-                  alt={g.title}
+                  src={g.image}
+                  alt={g.alt}
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
               </div>
