@@ -1,14 +1,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
-import { IMAGES } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "./Reveal";
 
 const STACK_IMAGES = [
-  IMAGES.bridal,
+  `${process.env.PUBLIC_URL}/foto_88.jpg`,
   `${process.env.PUBLIC_URL}/foto_77.jpg`,
-  IMAGES.serviceGlam,
+  `${process.env.PUBLIC_URL}/foto_88.jpg`,
 ];
 
 export default function Testimonials() {
