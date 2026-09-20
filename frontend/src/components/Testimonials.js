@@ -48,14 +48,14 @@ export default function Testimonials() {
 
         <div className="relative grid lg:grid-cols-2 gap-14 items-center">
           {/* Overlapping image stack */}
-          <Reveal className="hidden lg:block relative h-[520px]">
-            <div className="absolute top-6 left-0 w-[72%] rotate-[-4deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
+          <Reveal className="relative h-[300px] sm:h-[420px] lg:h-[520px]">
+            <div className="absolute top-4 sm:top-6 left-0 w-[70%] lg:w-[72%] rotate-[-4deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
               <img src={STACK_IMAGES[0]} alt="" className="w-full aspect-[3/4] object-cover" />
             </div>
-            <div className="absolute top-40 right-0 w-[60%] rotate-[5deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
+            <div className="absolute top-16 sm:top-24 lg:top-40 right-0 w-[55%] lg:w-[60%] rotate-[5deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
               <img src={STACK_IMAGES[1]} alt="" className="w-full aspect-[3/4] object-cover" />
             </div>
-            <div className="absolute bottom-0 left-10 w-[48%] rotate-[2deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
+            <div className="absolute bottom-2 sm:bottom-6 lg:bottom-0 left-6 sm:left-10 w-[45%] lg:w-[48%] rotate-[2deg] overflow-hidden rounded-2xl border-8 border-white shadow-2xl">
               <img src={STACK_IMAGES[2]} alt="" className="w-full aspect-[3/4] object-cover" />
             </div>
           </Reveal>
