@@ -49,7 +49,7 @@ const de = {
       {
         title: "Der Hochzeitstag (On-Location)",
         body:
-          "An deinem grossen Tag komme ich direkt an deinen Wunschort. Pünktlich, ruhig und hochprofessionell, damit du deine Vorbereitung in voller Gelassenheit geniessen kannst.",
+          "An deinem grossen Tag komme ich direkt an deinen Wunschort – für deinen makellosen Komplettlook aus Hairstyling und Make-up. Pünktlich, ruhig und hochprofessionell, damit du deine Vorbereitung in voller Gelassenheit geniessen kannst.",
         cta: "Jetzt anfragen",
       },
       {
@@ -362,7 +362,7 @@ const en = {
       {
         title: "The Wedding Day (On-Location)",
         body:
-          "On your big day I come directly to your chosen venue. Punctual, calm, and highly professional, so you can enjoy your preparations in complete serenity.",
+          "On your big day I come directly to your chosen venue – for your flawless complete look of hairstyling and make-up. Punctual, calm, and highly professional, so you can enjoy your preparations in complete serenity.",
         cta: "Enquire Now",
       },
       {
