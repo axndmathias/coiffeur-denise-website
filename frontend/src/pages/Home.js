@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Clock, Check } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 import { IMAGES, BRIDE_EXPERIENCE, PORTFOLIO } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
@@ -198,7 +198,8 @@ export default function Home() {
       </section>
 
       {/* GALLERY PREVIEW */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-20 lg:py-32">
+      <section className="bg-cream-2 py-20 lg:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16">
         <Reveal className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>
             <p className="text-xs uppercase tracking-[0.28em] text-gold mb-3">{t.home.portfolioEyebrow}</p>
@@ -226,24 +227,6 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
-      </section>
-
-      {/* HOURS STRIP */}
-      <section className="bg-cream-2 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 grid lg:grid-cols-3 gap-8 items-center">
-          <div className="lg:col-span-1">
-            <Clock className="text-gold mb-3" size={28} />
-            <h3 className="font-serif text-2xl mb-2">{t.home.hoursTitle}</h3>
-            <p className="text-sm text-stone-500">{t.home.hoursSub}</p>
-          </div>
-          <div className="lg:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {t.hours.map((h) => (
-              <div key={h.day} className="bg-white rounded-xl border border-stone-200/70 px-4 py-3">
-                <p className="text-xs uppercase tracking-[0.18em] text-stone-400">{h.day}</p>
-                <p className={`text-sm mt-1 ${h.closed ? "text-stone-400" : "text-onyx"}`}>{h.time}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

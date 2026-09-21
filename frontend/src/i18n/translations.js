@@ -282,7 +282,7 @@ const de = {
     anotherBtn: "Weitere Anfrage senden",
     studioDetails: "Studio-Details",
     openingHours: "Öffnungszeiten",
-    hoursNote: "Öffnungszeiten noch zu bestätigen – kontaktieren Sie uns für einen Termin.",
+    hoursText: "Nach Vereinbarung – bitte kontaktiere uns, um einen Termin zu planen.",
   },
   footer: {
     explore: "Entdecken",
@@ -595,7 +595,7 @@ const en = {
     anotherBtn: "Make Another Enquiry",
     studioDetails: "Studio Details",
     openingHours: "Opening Hours",
-    hoursNote: "Hours to be confirmed — please contact us to arrange your appointment.",
+    hoursText: "By appointment — please contact us to arrange your visit.",
   },
   footer: {
     explore: "Explore",

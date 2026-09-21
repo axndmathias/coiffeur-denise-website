@@ -203,15 +203,7 @@ export default function Book() {
                 <h4 className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-gold mb-4">
                   <Clock size={15} /> {t.book.openingHours}
                 </h4>
-                <ul className="space-y-2 text-sm">
-                  {t.hours.map((h) => (
-                    <li key={h.day} className="flex justify-between">
-                      <span className="text-cream/70">{h.day}</span>
-                      <span className={h.closed ? "text-cream/40" : "text-cream/90"}>{h.time}</span>
-                    </li>
-                  ))}
-                </ul>
-                <p className="text-xs text-cream/50 mt-4 italic">{t.book.hoursNote}</p>
+                <p className="text-sm text-cream/90">{t.book.hoursText}</p>
               </div>
             </div>
           </Reveal>
