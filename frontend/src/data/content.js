@@ -76,7 +76,7 @@ export const PORTFOLIO = [
     alt: "Apanhado mit texturierten Wellen",
   },
   {
-    image: `${process.env.PUBLIC_URL}/foto_75.jpg`,
-    alt: "Semi-preso Hochsteckfrisur mit Tiara",
+    image: `${process.env.PUBLIC_URL}/foto_85.jpg`,
+    alt: "Semi-preso Hochsteckfrisur mit Tiara und elegantem Accessoire",
   },
 ];
