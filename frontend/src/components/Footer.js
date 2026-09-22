@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, MapPin, Phone, Mail } from "lucide-react";
+import { Instagram, Facebook, MapPin, Phone, Mail, Github } from "lucide-react";
 import { BRAND, INSTAGRAM_FEED } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 
@@ -104,6 +104,16 @@ export default function Footer() {
       <div className="border-t border-cream/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs uppercase tracking-[0.18em] text-cream/40">
           <span>{t.footer.copyright}</span>
+          <a
+            href={BRAND.githubUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-1.5 hover:text-gold transition-colors"
+            data-testid="footer-developed-by"
+          >
+            <Github size={13} aria-label={t.footer.developedBy} />
+            <span>{t.footer.developedBy}</span>
+          </a>
           <span>{BRAND.instagram}</span>
         </div>
       </div>

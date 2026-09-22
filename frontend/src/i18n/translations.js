@@ -289,6 +289,7 @@ const de = {
     openingHours: "Öffnungszeiten",
     followUs: "Folgen Sie uns",
     copyright: "© Coiffeur Denise • Alle Rechte vorbehalten",
+    developedBy: "Entwickelt von axnd",
     links: [
       ["Start", "/"],
       ["Über uns", "/about"],
@@ -602,6 +603,7 @@ const en = {
     openingHours: "Opening Hours",
     followUs: "Follow Us",
     copyright: "© Coiffeur Denise • All Rights Reserved",
+    developedBy: "Developed by axnd",
     links: [
       ["Home", "/"],
       ["About", "/about"],

@@ -7,6 +7,7 @@ export const BRAND = {
   logoScript: "denise",
   instagram: "@coiffeurdenise",
   instagramUrl: "https://www.instagram.com/coiffeurdenise/",
+  githubUrl: "https://github.com/axndmathias",
   facebookUrl: "https://www.facebook.com/Www.coiffeur.denise.ch/",
   phone: "+41 79 866 67 07",
   phoneHref: "tel:+41798666707",
