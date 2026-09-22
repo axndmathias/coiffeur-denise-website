@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useLang } from "../i18n/LanguageContext";
 
 // Small interior-page hero used on About / Services / Gallery / Book
-export default function PageHero({ eyebrow, title, subtitle, image }) {
+export default function PageHero({ eyebrow, title, subtitle, image, imagePosition = "object-center" }) {
   return (
     <section
       data-testid="page-hero"
@@ -12,7 +12,7 @@ export default function PageHero({ eyebrow, title, subtitle, image }) {
       <img
         src={image}
         alt={title}
-        className="absolute inset-0 w-full h-full object-cover opacity-45 animate-kenburns"
+        className={`absolute inset-0 w-full h-full object-cover ${imagePosition} opacity-45 animate-kenburns`}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-onyx/60 via-onyx/40 to-cream" />
       <div className="relative z-10 px-6 pt-20">

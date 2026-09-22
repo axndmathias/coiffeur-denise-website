@@ -157,7 +157,7 @@ const de = {
         id: "signature",
         title: "Entdecken Sie Ihren Signature-Look",
         body:
-          "Unsere Stylistinnen sind Künstlerinnen, die individuelle Braut-Looks kreieren, die Ihren Stil widerspiegeln und Ihre Vorzüge betonen. Ob sanfte, romantische Wellen, eine elegante Hochsteckfrisur oder ein makelloses Finish – wir verwirklichen Ihre Vorstellung.",
+          "Jede Braut ist einzigartig – genau wie ihr Styling. Ich helfe Ihnen dabei, den Look zu finden und zu kreieren, der Ihren persönlichen Stil perfekt widerspiegelt und Ihre Vorzüge unterstreicht. Ob sanfte, romantische Wellen, eine elegante Hochsteckfrisur oder ein makelloses Finish: Ich verwirkliche Ihre Vision mit ganz viel Herz und Präzision.",
         image: `${process.env.PUBLIC_URL}/foto_102.jpg`,
       },
     ],

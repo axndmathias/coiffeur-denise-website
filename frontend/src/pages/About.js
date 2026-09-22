@@ -15,6 +15,7 @@ export default function About() {
         title={t.about.heroTitle}
         subtitle={t.about.heroSubtitle}
         image={`${process.env.PUBLIC_URL}/foto_97.jpg`}
+        imagePosition="object-left"
       />
 
       {/* Alternating editorial sections */}
