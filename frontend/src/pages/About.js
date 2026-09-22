@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
 import { IMAGES } from "../data/content";
@@ -14,7 +14,7 @@ export default function About() {
         eyebrow={t.about.heroEyebrow}
         title={t.about.heroTitle}
         subtitle={t.about.heroSubtitle}
-        image={IMAGES.redCarpet}
+        image={`${process.env.PUBLIC_URL}/foto_97.jpg`}
       />
 
       {/* Alternating editorial sections */}
