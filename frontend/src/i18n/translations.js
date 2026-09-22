@@ -136,29 +136,29 @@ const de = {
         id: "essence",
         title: "Die Essenz von Coiffeur Denise",
         body:
-          "Coiffeur Denise ist der Ort, an dem Ihre Hochzeitsvision Wirklichkeit wird. Wir verbinden Kunst und Inspiration und verwandeln Sie in die strahlendste Version Ihrer selbst – zeitlose Braut-Eleganz mit einer modernen Note, ganz individuell auf Sie abgestimmt.",
-        image: IMAGES.bridal,
+          "Hinter Coiffeur Denise steht weit mehr als Handwerk – es ist gelebte Leidenschaft aus erster Hand. Ich weiß aus eigener Erfahrung, wie sich der Tag der Hochzeit anfühlt, welche Träume mitschwingen und wie wichtig jedes Detail ist. Mit diesem persönlichen Feingefühl, kompromissloser Präzision und einem Auge für Ästhetik begleite ich Sie in einer exklusiven Atmosphäre auf dem Weg zu Ihrem unvergesslichen Auftritt.",
+        image: `${process.env.PUBLIC_URL}/foto_39.jpg`,
       },
       {
         id: "occasion",
         title: "Für Ihren grossen Tag gemacht",
         body:
-          "Vom ersten Probetermin bis zum letzten Schleier sind wir an Ihrer Seite. Ob intime Trauung oder grosse Feier – unser Brautstyling sorgt dafür, dass Sie und Ihre ganze Hochzeitsgesellschaft in den wichtigsten Momenten aussehen und sich fühlen wie nie zuvor.",
-        image: IMAGES.serviceGlam,
+          "Weil ich diesen Weg als Braut selbst gegangen bin und ihn als erfahrene Coiffeuse perfekt beherrsche, weiss ich genau, was Sie jetzt brauchen. Von der ersten Beratung und dem Probestyling bis zum letzten Handgriff am grossen Tag nehme ich Ihnen jede Sorge ab. Mit handwerklichem Feingefühl und tiefem Verständnis begleite ich Sie Schritt für Schritt – damit Sie sich einfach nur zurücklehnen, strahlen und Ihren Moment geniessen können.",
+        image: `${process.env.PUBLIC_URL}/foto_4.jpg`,
       },
       {
         id: "red-carpet",
         title: "Bereit für den Gang zum Altar",
         body:
-          "Stellen Sie sich vor, wie Sie voller Selbstbewusstsein und Anmut zum Altar schreiten. Unser Styling ist Ihr Ticket für diesen unvergesslichen Auftritt – von Hochzeiten und Verlobungsfeiern bis zu besonderen Anlässen bringen wir Sie zum Strahlen.",
-        image: IMAGES.redCarpet,
+          "Der Moment, in dem Sie den Raum betreten und alle Blicke auf Sie gerichtet sind, ist unvergesslich. Mit meiner Erfahrung als Coiffeuse und dem tiefen Mitgefühl einer ehemaligen Noiva sorge ich dafür, dass Sie diesen Gang voller Stolz, makelloser Schönheit und innerer Ruhe antreten. Von der Traumhochzeit bis zur exklusiven Abendveranstaltung – ich bringe Sie zum Strahlen.",
+        image: `${process.env.PUBLIC_URL}/foto_107.jpg`,
       },
       {
         id: "signature",
         title: "Entdecken Sie Ihren Signature-Look",
         body:
           "Unsere Stylistinnen sind Künstlerinnen, die individuelle Braut-Looks kreieren, die Ihren Stil widerspiegeln und Ihre Vorzüge betonen. Ob sanfte, romantische Wellen, eine elegante Hochsteckfrisur oder ein makelloses Finish – wir verwirklichen Ihre Vorstellung.",
-        image: IMAGES.essence,
+        image: `${process.env.PUBLIC_URL}/foto_102.jpg`,
       },
     ],
     whyChoose: [

@@ -32,7 +32,9 @@ export default function About() {
                 <img
                   src={s.image}
                   alt={s.title}
-                  className="w-full h-[420px] lg:h-[520px] object-cover hover:scale-105 transition-transform duration-700"
+                  className={`w-full h-[420px] lg:h-[520px] object-cover ${
+                    s.id === "signature" || s.id === "red-carpet" ? "object-[50%_13%]" : ""
+                  } hover:scale-105 transition-transform duration-700`}
                 />
               </div>
             </Reveal>
