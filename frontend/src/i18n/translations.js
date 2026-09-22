@@ -165,27 +165,27 @@ const de = {
       {
         title: "Braut-Expertise",
         body:
-          "Unsere Spezialistinnen sind erfahrene Profis, die Können mit Leidenschaft verbinden und Braut-Looks kreieren, die den ganzen Tag halten und begeistern.",
+          "Als erfahrene Profi-Coiffeuse verbinde ich handwerkliche Leidenschaft mit dem tiefen Verständnis einer ehemaligen Braut, um Looks zu kreieren, die den ganzen Tag halten und begeistern.",
       },
       {
         title: "Ganz auf Sie abgestimmt",
         body:
-          "Jede Braut ist einzigartig – und so auch Ihr Erlebnis. Vom Probetermin bis zum Hochzeitstag arbeiten wir eng mit Ihnen zusammen, damit Ihr Look perfekt wird.",
+          "Jede Braut ist einzigartig – und so auch Ihr Erlebnis. Vom Probetermin bis zum Hochzeitstag arbeite ich eng mit Ihnen zusammen, damit Ihr Look perfekt wird.",
       },
       {
         title: "Ruhiges, edles Ambiente",
         body:
-          "Entspannen Sie und lassen Sie sich in unserem warmen, einladenden Studio im Herzen von Romanshorn für Ihren grossen Tag verwöhnen.",
+          "Entspannen Sie sich und lassen Sie sich in meinem warmen, einladenden Studio im Herzen von Romanshorn für Ihren grossen Tag verwöhnen.",
       },
       {
         title: "Makelloses, langanhaltendes Ergebnis",
         body:
-          "Mit hochwertigen Produkten und feinen Techniken schaffen wir ein wunderschönes, langanhaltendes Styling – vom ersten Blick bis zum letzten Tanz.",
+          "Mit hochwertigen Produkten und feinen Techniken schaffe ich ein wunderschönes, langanhaltendes Styling – vom ersten Blick bis zum letzten Tanz.",
       },
       {
         title: "Selbstbewusst in Ihrem Moment",
         body:
-          "Schönes Haar und Beauty bedeuten nicht nur Aussehen, sondern das Gefühl, in den grössten Momenten Ihres Lebens zu strahlen.",
+          "Schönes Haar und Beauty bedeuten für mich nicht nur Aussehen, sondern das Gefühl, in den grössten Momenten Ihres Lebens zu strahlen.",
       },
     ],
   },
