@@ -14,7 +14,7 @@ export default function Services() {
         eyebrow={t.services.heroEyebrow}
         title={t.services.heroTitle}
         subtitle={t.services.heroSubtitle}
-        image={IMAGES.serviceEditorial}
+        image={`${process.env.PUBLIC_URL}/foto_34.jpg`}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 pt-14">
