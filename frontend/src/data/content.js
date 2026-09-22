@@ -33,12 +33,12 @@ export const IMAGES = {
 };
 
 export const INSTAGRAM_FEED = [
-  IMAGES.bridal,
-  "https://images.pexels.com/photos/29512614/pexels-photo-29512614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  IMAGES.redCarpet,
-  "https://images.pexels.com/photos/13599849/pexels-photo-13599849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  IMAGES.essence,
-  IMAGES.serviceGlam,
+  `${process.env.PUBLIC_URL}/foto_80.jpg`,
+  `${process.env.PUBLIC_URL}/foto_84.jpg`,
+  `${process.env.PUBLIC_URL}/foto_77.jpg`,
+  `${process.env.PUBLIC_URL}/foto_76.jpg`,
+  `${process.env.PUBLIC_URL}/foto_75.jpg`,
+  `${process.env.PUBLIC_URL}/foto_64.jpg`,
 ];
 
 export const BRIDE_EXPERIENCE = [
