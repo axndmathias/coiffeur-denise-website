@@ -14,7 +14,7 @@ export default function Services() {
         eyebrow={t.services.heroEyebrow}
         title={t.services.heroTitle}
         subtitle={t.services.heroSubtitle}
-        image={`${process.env.PUBLIC_URL}/foto_34.jpg`}
+        image={`${process.env.PUBLIC_URL}/foto_117.jpg`}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 pt-14">
@@ -29,9 +29,13 @@ export default function Services() {
             <div data-testid={`service-category-${ci}`} className="grid lg:grid-cols-12 gap-8">
               {/* Category header card */}
               <div className="lg:col-span-4">
-                <div className="relative rounded-2xl overflow-hidden h-56 lg:h-full min-h-[220px] sticky top-28">
-                  <img src={cat.image} alt={cat.name} className="absolute inset-0 w-full h-full object-cover" />
-                  <div className="absolute inset-0 bg-onyx/55" />
+                <div className="relative rounded-2xl overflow-hidden h-56 lg:h-full min-h-[220px] sticky top-28 bg-onyx">
+                  <img
+                    src={cat.image}
+                    alt={cat.name}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-onyx/90 via-onyx/40 to-transparent" />
                   <div className="relative z-10 h-full flex flex-col justify-end p-7">
                     <p className="text-xs uppercase tracking-[0.24em] text-gold mb-2">
                       {String(ci + 1).padStart(2, "0")}

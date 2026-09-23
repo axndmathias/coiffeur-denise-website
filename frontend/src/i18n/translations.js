@@ -200,7 +200,7 @@ const de = {
     categories: [
       {
         name: "Brautstyling & Beauty",
-        image: IMAGES.bridal,
+        image: `${process.env.PUBLIC_URL}/foto_801.jpg`,
         items: [
           { name: "Braut-Probetermin", desc: "Beratung und Probestyling vor der Hochzeit.", price: "CHF 95" },
           { name: "Hochzeitstag – Braut", desc: "Komplettes Brautstyling für Ihren Tag.", price: "CHF 250" },
@@ -350,14 +350,14 @@ const en = {
     essenceTitle: "Where your wedding vision comes to life",
     essenceBody:
       "With masterful precision, deep attention to detail, and the calm you deserve, I accompany you on your special day. From a relaxed trial to the flawless finish at your chosen venue – together we create a timeless look that lets your natural beauty shine.",
-    discover: "Discover our story",
+    discover: "Discover my story",
     brideKicker: "The Bride Experience",
     brideTitle: "A few simple steps to your perfect look",
     brideCards: [
       {
         title: "Consultation & Trial Appointment",
         body:
-          "A no-obligation request for your preferred date, followed by a relaxed trial in our salon. We craft your look perfectly matched to your dress and style.",
+          "A no-obligation request for your preferred date, followed by a relaxed trial in my salon. I craft your look perfectly matched to your dress and style.",
         cta: "Request Appointment",
       },
       {
@@ -382,8 +382,8 @@ const en = {
       { title: "Punctual & Reliable", body: "So you don't have to worry about a thing." },
       { title: "Long-Lasting Look", body: "From the first photo to the last dance." },
     ],
-    servicesEyebrow: "What We Offer",
-    servicesTitle: "Our Services",
+    servicesEyebrow: "What I Offer",
+    servicesTitle: "My Services",
     service: "service",
     services: "services",
     from: "from",
@@ -393,9 +393,9 @@ const en = {
     portfolioTitle: "Moments for Eternity",
     fullGallery: "Full gallery",
     hoursTitle: "Studio Hours",
-    hoursSub: "We look forward to welcoming you.",
+    hoursSub: "I look forward to welcoming you.",
     kundenEyebrow: "Testimonials",
-    kundenTitle: "What our clients say about us",
+    kundenTitle: "What my clients say about me",
     testimonials: [
       {
         name: "Melanie (meelaaniiee1879)",
@@ -438,8 +438,8 @@ const en = {
     ctaButton: "Request a Trial Appointment",
   },
   about: {
-    heroEyebrow: "Our Story",
-    heroTitle: "About Coiffeur Denise",
+    heroEyebrow: "My Story",
+    heroTitle: "About Me",
     heroSubtitle:
       "Bridal hair & beauty in Romanshorn — where your wedding-day vision comes beautifully to life.",
     bookNow: "Book Now",
@@ -450,28 +450,28 @@ const en = {
         id: "essence",
         title: "The Essence of Coiffeur Denise",
         body:
-          "Coiffeur Denise is where your wedding-day vision comes to life. It's a fusion of artistry and inspiration that transforms you into the most radiant version of yourself — capturing timeless bridal elegance and infusing it with a modern touch, creating a look that's uniquely yours.",
+          "Coiffeur Denise is far more than craftsmanship — it's lived passion from first-hand experience. I know from my own experience what a wedding day feels like, what dreams come with it, and how important every detail is. With this personal sensitivity, uncompromising precision, and an eye for aesthetics, I accompany you in an exclusive atmosphere on your way to an unforgettable appearance.",
         image: IMAGES.bridal,
       },
       {
         id: "occasion",
         title: "Made for Your Big Day",
         body:
-          "From the first trial to the final veil, we're by your side. Whether it's an intimate ceremony or a grand celebration, our bridal hair and beauty treatments ensure you — and your whole bridal party — look and feel exceptional on the moments that matter most.",
+          "Because I have walked this path as a bride myself and mastered it as an experienced hairdresser, I know exactly what you need. From the first consultation and trial styling to the final touch on your big day, I take all the worries off your shoulders. With craftsmanship sensitivity and deep understanding, I guide you step by step — so you can simply lean back, glow, and enjoy your moment.",
         image: IMAGES.serviceGlam,
       },
       {
         id: "red-carpet",
         title: "Aisle-Ready Glamour",
         body:
-          "Imagine walking down the aisle exuding confidence and grace. Our styling is your ticket to that unforgettable entrance. From weddings and engagement parties to special occasions, we'll ensure you shine under every spotlight.",
+          "The moment you enter the room and all eyes turn to you is unforgettable. With my experience as a hairdresser and the deep empathy of a former bride, I make sure you walk that aisle full of pride, flawless beauty, and inner calm. From dream weddings to exclusive evening events — I make you shine.",
         image: IMAGES.redCarpet,
       },
       {
         id: "signature",
         title: "Unveil Your Signature Look",
         body:
-          "Our stylists are artists in their own right, skilled in crafting personalized bridal looks that reflect your individual style and enhance your features. Whether you dream of soft romantic waves, an elegant updo, or a flawless finish, we're here to bring your vision to life.",
+          "Every bride is unique — and so is her styling. I help you find and create the look that perfectly reflects your personal style and highlights your best features. Whether soft romantic waves, an elegant updo, or a flawless finish: I bring your vision to life with all my heart and precision.",
         image: IMAGES.essence,
       },
     ],
@@ -479,37 +479,37 @@ const en = {
       {
         title: "Bridal Expertise",
         body:
-          "Our specialists are seasoned professionals who combine skill with a passion for creating head-turning bridal looks that embody elegance and last all day long.",
+          "As an experienced professional hairdresser, I combine craftsmanship passion with the deep understanding of a former bride to create looks that last all day and delight.",
       },
       {
         title: "Tailored to You",
         body:
-          "Every bride is unique, and so is your experience. We collaborate closely with you — from trial to wedding day — to ensure your look is tailored to perfection.",
+          "Every bride is unique, and so is your experience. I work closely with you — from trial to wedding day — so your look turns out perfect.",
       },
       {
         title: "Calm, Luxurious Setting",
         body:
-          "Relax and be pampered in a warm, welcoming studio in the heart of Romanshorn as you prepare for your special day.",
+          "Relax and let me pamper you — either directly in my cozy studio in the heart of Romanshorn or comfortably at your home or hotel on your wedding day. I adapt entirely to your wishes so your big day starts stress-free.",
       },
       {
         title: "Flawless, Lasting Results",
         body:
-          "Using premium products and refined techniques, we deliver beautiful, long-lasting styling that stays picture-perfect from first look to last dance.",
+          "With premium products and refined techniques, I create a beautiful, long-lasting styling — from the first look to the last dance.",
       },
       {
         title: "Confidence for Your Moment",
         body:
-          "Great hair and beauty isn't just about appearance; it's about feeling radiant and confident as you step into the biggest moments of your life.",
+          "To me, beautiful hair and beauty aren't just about appearance, but the feeling of radiating in the biggest moments of your life.",
       },
     ],
   },
   services: {
     heroEyebrow: "Hair & Beauty",
-    heroTitle: "Our Services",
+    heroTitle: "My Services",
     heroSubtitle:
       "Bridal hair & beauty, special-occasion styling, and everyday hairdressing — crafted just for you.",
     note:
-      "Prices are indicative and to be confirmed — please contact us for a personalised bridal consultation.",
+      "Prices are indicative and to be confirmed — please contact me for a personalised bridal consultation.",
     book: "Book",
     categories: [
       {
@@ -547,7 +547,7 @@ const en = {
     heroEyebrow: "Portfolio",
     heroTitle: "The Gallery",
     heroSubtitle:
-      "A curated collection of our signature looks — from bridal glam to red-carpet ready.",
+      "A curated collection of my signature looks — from bridal glam to red-carpet ready.",
     filters: ["All Works", "Bridal Hair", "Updos & Styling", "Hair & Makeup", "Special Occasions"],
     items: [
       { src: IMAGES.bridal, category: "Bridal Hair", title: "The Bride" },
@@ -568,7 +568,7 @@ const en = {
     heroEyebrow: "Get in Touch",
     heroTitle: "Book Your Appointment",
     heroSubtitle:
-      "Tell us about your occasion and preferred time — we'll craft the perfect experience for you.",
+      "Tell me about your occasion and preferred time — I'll craft the perfect experience for you.",
     formTitle: "Enquiry Form",
     requiredNote: "Fields marked * are required.",
     fullName: "Full Name *",
@@ -581,22 +581,22 @@ const en = {
     phEmail: "you@email.com",
     phPhone: "Your phone",
     phDatetime: "e.g. Sat 14 June, morning",
-    phMessage: "Tell us about your occasion…",
+    phMessage: "Tell me about your occasion…",
     servicePlaceholder: "Select a service…",
     submit: "Send Enquiry",
     sending: "Sending…",
-    successToast: "Your enquiry has been sent — we'll be in touch soon!",
+    successToast: "Your enquiry has been sent — I'll be in touch soon!",
     errorToast: "Something went wrong. Please try again.",
     validationToast: "Please fill in all required fields.",
     thankYouPre: "Thank You, ",
     confirmPre: "Your enquiry for",
     confirmMid: "on",
-    confirmPost: "has been received. We'll contact you at",
+    confirmPost: "has been received. I'll contact you at",
     confirmSuffix: "to confirm your appointment.",
     anotherBtn: "Make Another Enquiry",
     studioDetails: "Studio Details",
     openingHours: "Opening Hours",
-    hoursText: "By appointment — please contact us to arrange your visit.",
+    hoursText: "By appointment — please contact me to arrange your visit.",
   },
   footer: {
     explore: "Explore",
@@ -616,7 +616,7 @@ const en = {
     script: "ready to glow?",
     title: "Book Your Beauty Experience",
     body:
-      "Reserve your appointment and let our stylists craft a look that's uniquely you.",
+      "Reserve your appointment and let me craft a look that's uniquely you.",
     button: "Book Appointment",
   },
   hours: [
