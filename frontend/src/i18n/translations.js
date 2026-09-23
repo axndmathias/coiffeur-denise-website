@@ -7,7 +7,7 @@ const de = {
   langLabel: "DE",
   nav: {
     home: "Start",
-    about: "Über uns",
+    about: "Über mich",
     services: "Leistungen",
     gallery: "Galerie",
     contact: "Kontakt",
@@ -36,14 +36,14 @@ const de = {
     essenceTitle: "Wo deine Hochzeitsvision zum Leben erwacht",
     essenceBody:
       "Mit meisterhafter Präzision, viel Liebe zum Detail und der nötigen Ruhe begleite ich dich an deinem besonderen Tag. Vom entspannten Probetermin bis zum perfekten Finish an deinem Wunschort – gemeinsam kreieren wir einen zeitlosen Look, der deine natürliche Schönheit strahlen lässt.",
-    discover: "Unsere Geschichte entdecken",
+    discover: "Meine Geschichte entdecken",
     brideKicker: "Die Braut-Erfahrung",
     brideTitle: "In wenigen Schritten zu deinem perfekten Look",
     brideCards: [
       {
         title: "Beratungs- & Probetermin",
         body:
-          "Unverbindliche Anfrage für dein Wunschdatum, gefolgt von einem entspannten Probetermin in unserem Salon. Wir kreieren deinen Look perfekt abgestimmt auf dein Kleid und deinen Stil.",
+          "Unverbindliche Anfrage für dein Wunschdatum, gefolgt von einem entspannten Probetermin in meinem Salon. Ich kreiere deinen Look perfekt abgestimmt auf dein Kleid und deinen Stil.",
         cta: "Termin anfragen",
       },
       {
@@ -81,7 +81,7 @@ const de = {
     hoursTitle: "Öffnungszeiten",
     hoursSub: "Wir freuen uns auf Ihren Besuch.",
     kundenEyebrow: "Kundenstimmen",
-    kundenTitle: "Was unsere Kundinnen über uns sagen",
+    kundenTitle: "Was meine Kundinnen über mich sagen",
     testimonials: [
       {
         name: "Melanie (meelaaniiee1879)",
@@ -120,12 +120,12 @@ const de = {
       },
     ],
     ctaEyebrow: "Dein unvergesslicher Moment",
-    ctaTitle: "Bereit für deine Traumfrisur? Lass uns deinen großen Tag planen.",
+    ctaTitle: "Bereit für deine Traumfrisur? Lass mich deinen großen Tag planen.",
     ctaButton: "Probetermin anfragen",
   },
   about: {
-    heroEyebrow: "Unsere Geschichte",
-    heroTitle: "Über Coiffeur Denise",
+    heroEyebrow: "Meine Geschichte",
+    heroTitle: "Über mich",
     heroSubtitle:
       "Brautstyling & Beauty in Romanshorn – wo Ihre Hochzeitsvision wunderschön zum Leben erwacht.",
     bookNow: "Jetzt buchen",
@@ -233,7 +233,7 @@ const de = {
     heroEyebrow: "Portfolio",
     heroTitle: "Die Galerie",
     heroSubtitle:
-      "Eine kuratierte Auswahl unserer schönsten Looks – von Brautfrisuren bis bereit für den grossen Auftritt.",
+      "Eine kuratierte Auswahl meiner schönsten Looks – von Brautfrisuren bis bereit für den grossen Auftritt.",
     filters: ["Alle Arbeiten", "Brautfrisuren", "Hochsteckfrisuren & Styling", "Haar & Make-up", "Besondere Anlässe"],
     items: [
       { src: IMAGES.bridal, category: "Brautfrisuren", title: "Die Braut" },
@@ -292,7 +292,7 @@ const de = {
     developedBy: "Entwickelt von axnd",
     links: [
       ["Start", "/"],
-      ["Über uns", "/about"],
+      ["Über mich", "/about"],
       ["Leistungen", "/services"],
       ["Galerie", "/gallery"],
       ["Buchen / Kontakt", "/book"],
@@ -302,7 +302,7 @@ const de = {
     script: "bereit zu strahlen?",
     title: "Buchen Sie Ihr Beauty-Erlebnis",
     body:
-      "Reservieren Sie Ihren Termin und lassen Sie unsere Stylistinnen einen Look kreieren, der einzigartig zu Ihnen passt.",
+      "Reservieren Sie Ihren Termin und lassen Sie mich einen Look kreieren, der einzigartig zu Ihnen passt.",
     button: "Termin buchen",
   },
   hours: [
