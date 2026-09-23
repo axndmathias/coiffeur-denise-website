@@ -175,7 +175,7 @@ const de = {
       {
         title: "Ruhiges, edles Ambiente",
         body:
-          "Entspannen Sie sich und lassen Sie sich in meinem warmen, einladenden Studio im Herzen von Romanshorn für Ihren grossen Tag verwöhnen.",
+          "Ob direkt in meinem gemütlichen Studio im Herzen von Romanshorn oder bequem bei Ihnen zu Hause oder im Hotel am Hochzeitstag – ich richte mich ganz nach Ihren Wünschen, damit Ihr grosser Tag stressfrei beginnt.",
       },
       {
         title: "Makelloses, langanhaltendes Ergebnis",
