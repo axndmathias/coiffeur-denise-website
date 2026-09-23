@@ -68,8 +68,8 @@ const de = {
       { title: "Pünktlich & zuverlässig", body: "Damit du dich um nichts kümmern musst." },
       { title: "Langanhaltender Look", body: "Vom ersten Foto bis zum letzten Tanz." },
     ],
-    servicesEyebrow: "Unser Angebot",
-    servicesTitle: "Unsere Leistungen",
+    servicesEyebrow: "Mein Angebot",
+    servicesTitle: "Meine Leistungen",
     service: "Leistung",
     services: "Leistungen",
     from: "ab",
@@ -79,7 +79,7 @@ const de = {
     portfolioTitle: "Momente für die Ewigkeit",
     fullGallery: "Ganze Galerie",
     hoursTitle: "Öffnungszeiten",
-    hoursSub: "Wir freuen uns auf Ihren Besuch.",
+    hoursSub: "Ich freue mich auf Ihren Besuch.",
     kundenEyebrow: "Kundenstimmen",
     kundenTitle: "Was meine Kundinnen über mich sagen",
     testimonials: [
@@ -191,7 +191,7 @@ const de = {
   },
   services: {
     heroEyebrow: "Haar & Beauty",
-    heroTitle: "Unsere Leistungen",
+    heroTitle: "Meine Leistungen",
     heroSubtitle:
       "Brautstyling & Beauty, Anlass-Frisuren und alltägliche Coiffure – ganz für Sie gemacht.",
     note:
@@ -254,7 +254,7 @@ const de = {
     heroEyebrow: "Kontakt",
     heroTitle: "Termin buchen",
     heroSubtitle:
-      "Erzählen Sie uns von Ihrem Anlass und Wunschtermin – wir gestalten das perfekte Erlebnis für Sie.",
+      "Erzählen Sie mir von Ihrem Anlass und Wunschtermin – ich gestalte das perfekte Erlebnis für Sie.",
     formTitle: "Anfrageformular",
     requiredNote: "Mit * markierte Felder sind Pflichtfelder.",
     fullName: "Vollständiger Name *",
@@ -271,13 +271,13 @@ const de = {
     servicePlaceholder: "Leistung auswählen…",
     submit: "Anfrage senden",
     sending: "Wird gesendet…",
-    successToast: "Ihre Anfrage wurde gesendet – wir melden uns bald bei Ihnen!",
+    successToast: "Ihre Anfrage wurde gesendet – ich melde mich bald bei Ihnen!",
     errorToast: "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
     validationToast: "Bitte füllen Sie alle Pflichtfelder aus.",
     thankYouPre: "Vielen Dank, ",
     confirmPre: "Ihre Anfrage für",
     confirmMid: "am",
-    confirmPost: "ist bei uns eingegangen. Wir kontaktieren Sie unter",
+    confirmPost: "ist bei mir eingegangen. Ich kontaktiere Sie unter",
     confirmSuffix: ", um Ihren Termin zu bestätigen.",
     anotherBtn: "Weitere Anfrage senden",
     studioDetails: "Studio-Details",
