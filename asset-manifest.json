@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/coiffeur-denise-website/static/css/main.390a2793.css",
-    "main.js": "/coiffeur-denise-website/static/js/main.7c445ecf.js",
+    "main.js": "/coiffeur-denise-website/static/js/main.c97f47d0.js",
     "index.html": "/coiffeur-denise-website/index.html",
     "main.390a2793.css.map": "/coiffeur-denise-website/static/css/main.390a2793.css.map",
-    "main.7c445ecf.js.map": "/coiffeur-denise-website/static/js/main.7c445ecf.js.map"
+    "main.c97f47d0.js.map": "/coiffeur-denise-website/static/js/main.c97f47d0.js.map"
   },
   "entrypoints": [
     "static/css/main.390a2793.css",
-    "static/js/main.7c445ecf.js"
+    "static/js/main.c97f47d0.js"
   ]
 }
