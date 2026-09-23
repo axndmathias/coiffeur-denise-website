@@ -19,7 +19,7 @@ export default function Gallery() {
         eyebrow={t.gallery.heroEyebrow}
         title={t.gallery.heroTitle}
         subtitle={t.gallery.heroSubtitle}
-        image={IMAGES.bridal}
+        image={`${process.env.PUBLIC_URL}/foto_1061.jpg`}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-16 lg:py-24">
