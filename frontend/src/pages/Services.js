@@ -33,7 +33,9 @@ export default function Services() {
                   <img
                     src={cat.image}
                     alt={cat.name}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className={`absolute inset-0 w-full h-full object-cover ${
+                      ci === 1 ? "object-[5%_center]" : ""
+                    }`}
                   />
                   <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-onyx/90 via-onyx/40 to-transparent" />
                   <div className="relative z-10 h-full flex flex-col justify-end p-7">

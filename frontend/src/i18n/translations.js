@@ -211,7 +211,7 @@ const de = {
       },
       {
         name: "Anlass-Frisuren",
-        image: IMAGES.serviceGlam,
+        image: `${process.env.PUBLIC_URL}/foto_37.jpg`,
         items: [
           { name: "Make-up + Haar (Ball / Event)", desc: "Haarstyling & Make-up für Bälle und Events.", price: "CHF 120" },
           { name: "Hochsteckfrisur für Anlässe", desc: "Elegante Hochsteckfrisur für besondere Anlässe.", price: "Auf Anfrage" },
@@ -220,7 +220,7 @@ const de = {
       },
       {
         name: "Coiffure",
-        image: IMAGES.serviceEditorial,
+        image: `${process.env.PUBLIC_URL}/foto_921.jpg`,
         items: [
           { name: "Schnitt & Finish", desc: "Präziser Schnitt und Styling.", price: "Auf Anfrage" },
           { name: "Farbe", desc: "Volle Farbe oder Strähnen.", price: "Auf Anfrage" },
