@@ -34,12 +34,12 @@ export const IMAGES = {
 };
 
 export const INSTAGRAM_FEED = [
-  `${process.env.PUBLIC_URL}/foto_80.jpg`,
-  `${process.env.PUBLIC_URL}/foto_84.jpg`,
-  `${process.env.PUBLIC_URL}/foto_77.jpg`,
-  `${process.env.PUBLIC_URL}/foto_76.jpg`,
-  `${process.env.PUBLIC_URL}/foto_75.jpg`,
-  `${process.env.PUBLIC_URL}/foto_64.jpg`,
+  `${process.env.PUBLIC_URL}/foto_61.jpg`,
+  `${process.env.PUBLIC_URL}/foto_85.jpg`,
+  `${process.env.PUBLIC_URL}/foto_128.jpg`,
+  `${process.env.PUBLIC_URL}/foto_129.jpg`,
+  `${process.env.PUBLIC_URL}/foto_89.jpg`,
+  `${process.env.PUBLIC_URL}/foto_90.jpg`,
 ];
 
 export const BRIDE_EXPERIENCE = [
