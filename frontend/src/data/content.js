@@ -69,7 +69,7 @@ export const PORTFOLIO = [
     alt: "Elegantes Apanhado mit Perlen- und Kristall-Accessoire",
   },
   {
-    image: `${process.env.PUBLIC_URL}/foto_88.jpg`,
+    image: `${process.env.PUBLIC_URL}/foto_911.jpg`,
     alt: "Hochsteckfrisur mit Zöpfen und rosa Blumen",
     objectPosition: "bottom",
   },
@@ -78,7 +78,7 @@ export const PORTFOLIO = [
     alt: "Apanhado mit texturierten Wellen",
   },
   {
-    image: `${process.env.PUBLIC_URL}/foto_85.jpg`,
+    image: `${process.env.PUBLIC_URL}/foto_133.jpg`,
     alt: "Semi-preso Hochsteckfrisur mit Tiara und elegantem Accessoire",
   },
 ];
