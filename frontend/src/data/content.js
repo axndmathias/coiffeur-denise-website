@@ -69,8 +69,9 @@ export const PORTFOLIO = [
     alt: "Elegantes Apanhado mit Perlen- und Kristall-Accessoire",
   },
   {
-    image: `${process.env.PUBLIC_URL}/foto_73.jpg`,
+    image: `${process.env.PUBLIC_URL}/foto_88.jpg`,
     alt: "Hochsteckfrisur mit Zöpfen und rosa Blumen",
+    objectPosition: "bottom",
   },
   {
     image: `${process.env.PUBLIC_URL}/foto_72.jpg`,

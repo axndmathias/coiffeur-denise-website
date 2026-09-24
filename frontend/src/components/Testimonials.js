@@ -7,7 +7,7 @@ import Reveal from "./Reveal";
 const STACK_IMAGES = [
   `${process.env.PUBLIC_URL}/foto_34.jpg`,
   `${process.env.PUBLIC_URL}/foto_77.jpg`,
-  `${process.env.PUBLIC_URL}/foto_88.jpg`,
+  `${process.env.PUBLIC_URL}/foto_911.jpg`,
 ];
 
 export default function Testimonials() {
