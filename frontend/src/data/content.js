@@ -35,7 +35,7 @@ export const IMAGES = {
 
 export const INSTAGRAM_FEED = [
   `${process.env.PUBLIC_URL}/foto_61.jpg`,
-  `${process.env.PUBLIC_URL}/foto_85.jpg`,
+  `${process.env.PUBLIC_URL}/foto_132.jpg`,
   `${process.env.PUBLIC_URL}/foto_128.jpg`,
   `${process.env.PUBLIC_URL}/foto_129.jpg`,
   `${process.env.PUBLIC_URL}/foto_89.jpg`,
@@ -69,16 +69,16 @@ export const PORTFOLIO = [
     alt: "Elegantes Apanhado mit Perlen- und Kristall-Accessoire",
   },
   {
-    image: `${process.env.PUBLIC_URL}/foto_911.jpg`,
+    image: `${process.env.PUBLIC_URL}/foto_70.jpg`,
     alt: "Hochsteckfrisur mit Zöpfen und rosa Blumen",
-    objectPosition: "bottom",
+    objectPosition: "62% bottom",
   },
   {
     image: `${process.env.PUBLIC_URL}/foto_72.jpg`,
     alt: "Apanhado mit texturierten Wellen",
   },
   {
-    image: `${process.env.PUBLIC_URL}/foto_133.jpg`,
+    image: `${process.env.PUBLIC_URL}/foto_85.jpg`,
     alt: "Semi-preso Hochsteckfrisur mit Tiara und elegantem Accessoire",
   },
 ];

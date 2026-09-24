@@ -34,7 +34,7 @@ export default function Services() {
                     src={cat.image}
                     alt={cat.name}
                     className={`absolute inset-0 w-full h-full object-cover ${
-                      ci === 1 ? "object-[5%_center]" : ""
+                      ci === 1 ? "object-[100%_30%]" : ""
                     }`}
                   />
                   <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-onyx/90 via-onyx/40 to-transparent" />

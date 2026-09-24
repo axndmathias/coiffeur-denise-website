@@ -58,9 +58,9 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-20 lg:py-32 grid lg:grid-cols-2 gap-14 items-center">
         <Reveal className="relative">
           <img
-            src={`${process.env.PUBLIC_URL}/foto_55.jpg`}
+            src={`${process.env.PUBLIC_URL}/foto_611.jpg`}
             alt="The essence of Coiffeur Denise"
-            className="rounded-2xl w-full h-[480px] object-cover shadow-xl"
+            className="rounded-2xl w-full h-[480px] object-cover object-[50%_20%] shadow-xl"
           />
           <div className="absolute -bottom-6 -right-2 sm:-right-6 bg-onyx text-cream rounded-2xl px-7 py-5 shadow-2xl">
             <p className="font-serif text-3xl text-gold">20+</p>
