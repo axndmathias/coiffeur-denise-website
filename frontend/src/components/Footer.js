@@ -55,14 +55,7 @@ export default function Footer() {
         {/* Hours */}
         <div>
           <h4 className="text-xs uppercase tracking-[0.22em] text-gold mb-5">{t.footer.openingHours}</h4>
-          <ul className="space-y-1.5 text-sm text-cream/70">
-            {t.hours.map((h) => (
-              <li key={h.day} className="flex items-center justify-between gap-4 max-w-[240px]">
-                <span>{h.day}</span>
-                <span className={h.closed ? "text-cream/35" : "text-cream/70"}>{h.time}</span>
-              </li>
-            ))}
-          </ul>
+          <p className="text-sm text-cream/70 max-w-[240px] leading-relaxed">{t.hours}</p>
         </div>
 
         {/* Contact + Instagram feed */}

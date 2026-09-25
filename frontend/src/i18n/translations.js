@@ -280,15 +280,7 @@ const de = {
       "Reservieren Sie Ihren Termin und lassen Sie mich einen Look kreieren, der einzigartig zu Ihnen passt.",
     button: "Termin buchen",
   },
-  hours: [
-    { day: "Montag", time: "Nach Vereinbarung", closed: false },
-    { day: "Dienstag", time: "Nach Vereinbarung", closed: false },
-    { day: "Mittwoch", time: "09:00 – 19:00", closed: false },
-    { day: "Donnerstag", time: "Nach Vereinbarung", closed: false },
-    { day: "Freitag", time: "09:00 – 19:00", closed: false },
-    { day: "Samstag", time: "09:00 – 14:00", closed: false },
-    { day: "Sonntag", time: "Geschlossen", closed: true },
-  ],
+  hours: "Nach Vereinbarung – bitte kontaktieren Sie uns, um einen Termin zu planen.",
 };
 
 // ---------- ENGLISH ----------
@@ -568,15 +560,7 @@ const en = {
       "Reserve your appointment and let me craft a look that's uniquely you.",
     button: "Book Appointment",
   },
-  hours: [
-    { day: "Monday", time: "By Appointment", closed: false },
-    { day: "Tuesday", time: "By Appointment", closed: false },
-    { day: "Wednesday", time: "09:00 – 19:00", closed: false },
-    { day: "Thursday", time: "By Appointment", closed: false },
-    { day: "Friday", time: "09:00 – 19:00", closed: false },
-    { day: "Saturday", time: "09:00 – 14:00", closed: false },
-    { day: "Sunday", time: "Closed", closed: true },
-  ],
+  hours: "By appointment – please contact us to plan your visit.",
 };
 
 export const CONTENT = { de, en };
