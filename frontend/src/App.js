@@ -38,11 +38,15 @@ function WhatsAppButton() {
   );
 }
 
+const BASENAME = window.location.hostname.endsWith(".github.io")
+  ? "/coiffeur-denise-website"
+  : "";
+
 function App() {
   return (
     <div className="App">
       <LanguageProvider>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={BASENAME}>
           <ScrollToTop />
           <Navbar />
           <main>
