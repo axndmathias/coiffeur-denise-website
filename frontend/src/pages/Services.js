@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Clock, ArrowRight } from "lucide-react";
-import { IMAGES } from "../data/content";
+import { IMAGES, whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import PageHero, { CtaBand } from "../components/PageHero";
 import Reveal from "../components/Reveal";
@@ -68,13 +67,17 @@ export default function Services() {
                     </div>
                     <div className="text-right shrink-0">
                       <p className="font-serif text-xl sm:text-2xl text-onyx">{item.price}</p>
-                      <Link
-                        to="/book"
+                      <a
+                        href={whatsappUrl(
+                          t.wa.service[item.waIntent].replace("{service}", item.name)
+                        )}
+                        target="_blank"
+                        rel="noreferrer"
                         data-testid={`book-service-${ci}-${ii}`}
                         className="mt-2 inline-flex items-center gap-1 text-[11px] uppercase tracking-[0.18em] text-stone-400 group-hover:text-gold transition-colors"
                       >
                         {t.services.book} <ArrowRight size={12} />
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 ))}

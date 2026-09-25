@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, MapPin, Phone, Mail, Github } from "lucide-react";
-import { BRAND, INSTAGRAM_FEED } from "../data/content";
+import { Instagram, Facebook, MapPin, Phone, Mail, Github, MessageCircle } from "lucide-react";
+import { BRAND, INSTAGRAM_FEED, whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 
 export default function Footer() {
@@ -55,7 +55,14 @@ export default function Footer() {
         {/* Hours */}
         <div>
           <h4 className="text-xs uppercase tracking-[0.22em] text-gold mb-5">{t.footer.openingHours}</h4>
-          <p className="text-sm text-cream/70 max-w-[240px] leading-relaxed">{t.book.hoursText}</p>
+          <ul className="space-y-1.5 text-sm text-cream/70">
+            {t.hours.map((h) => (
+              <li key={h.day} className="flex items-center justify-between gap-4 max-w-[240px]">
+                <span>{h.day}</span>
+                <span className={h.closed ? "text-cream/35" : "text-cream/70"}>{h.time}</span>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* Contact + Instagram feed */}
@@ -81,12 +88,32 @@ export default function Footer() {
           </div>
           <ul className="space-y-2.5 text-sm">
             <li className="flex items-center gap-3 text-cream/70">
-              <MapPin size={15} className="text-gold shrink-0" /> {BRAND.address}
+              <MapPin size={15} className="text-gold shrink-0" />
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(BRAND.mapQuery)}`}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-gold transition-colors"
+              >
+                {BRAND.address}
+              </a>
             </li>
             <li className="flex items-center gap-3 text-cream/70">
               <Phone size={15} className="text-gold shrink-0" />
               <a href={BRAND.phoneHref} className="hover:text-gold transition-colors">
                 {BRAND.phone}
+              </a>
+            </li>
+            <li className="flex items-center gap-3 text-cream/70">
+              <MessageCircle size={15} className="text-gold shrink-0" />
+              <a
+                href={whatsappUrl(t.wa.message)}
+                target="_blank"
+                rel="noreferrer"
+                data-testid="footer-whatsapp"
+                className="hover:text-gold transition-colors"
+              >
+                {t.wa.label}
               </a>
             </li>
             {BRAND.email && (
@@ -98,6 +125,22 @@ export default function Footer() {
               </li>
             )}
           </ul>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 pb-16">
+        <h4 className="text-xs uppercase tracking-[0.22em] text-gold mb-5">{t.footer.mapTitle}</h4>
+        <div className="rounded-2xl overflow-hidden border border-cream/10 h-64">
+          <iframe
+            title="Coiffeur Denise location"
+            data-testid="footer-map"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            src={`https://www.google.com/maps?q=${encodeURIComponent(BRAND.mapQuery)}&output=embed`}
+          />
         </div>
       </div>
 

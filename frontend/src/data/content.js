@@ -1,6 +1,12 @@
 // Shared, non-translatable data for Coiffeur Denise (contact, images, social).
 // All translatable copy lives in src/i18n/translations.js
 
+const WHATSAPP_NUMBER = "41798666707";
+
+export function whatsappUrl(message) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
+
 export const BRAND = {
   name: "Coiffeur Denise",
   logoTop: "COIFFEUR",

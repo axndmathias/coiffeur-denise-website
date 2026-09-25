@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useLang } from "../i18n/LanguageContext";
+import { whatsappUrl } from "../data/content";
 
-// Small interior-page hero used on About / Services / Gallery / Book
+// Small interior-page hero used on About / Services / Gallery
 export default function PageHero({ eyebrow, title, subtitle, image, imagePosition = "object-center" }) {
   return (
     <section
@@ -37,13 +37,15 @@ export function CtaBand() {
         <p className="font-script text-4xl text-gold mb-2">{t.cta.script}</p>
         <h2 className="font-serif text-2xl sm:text-4xl mb-6">{t.cta.title}</h2>
         <p className="max-w-xl mx-auto text-cream/70 mb-9 leading-relaxed">{t.cta.body}</p>
-        <Link
-          to="/book"
+        <a
+          href={whatsappUrl(t.wa.message)}
+          target="_blank"
+          rel="noreferrer"
           data-testid="cta-band-book-btn"
           className="inline-block rounded-full bg-gold text-onyx px-10 py-4 text-xs uppercase tracking-[0.22em] hover:bg-blush transition-all duration-300"
         >
           {t.cta.button}
-        </Link>
+        </a>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Check } from "lucide-react";
-import { IMAGES, BRIDE_EXPERIENCE, PORTFOLIO } from "../data/content";
+import { IMAGES, BRIDE_EXPERIENCE, PORTFOLIO, whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
 import Testimonials from "../components/Testimonials";
@@ -35,13 +35,15 @@ export default function Home() {
               <span className="font-script font-normal italic text-blush">{t.hero.quote2}</span>
             </h1>
             <div className="flex flex-wrap gap-4">
-              <Link
-                to="/book"
+              <a
+                href={whatsappUrl(t.wa.message)}
+                target="_blank"
+                rel="noreferrer"
                 data-testid="hero-book-btn"
                 className="rounded-full bg-gold text-onyx px-9 py-4 text-xs uppercase tracking-[0.22em] hover:bg-blush transition-all duration-300 flex items-center gap-2"
               >
                 {t.hero.book} <ArrowRight size={16} />
-              </Link>
+              </a>
               <Link
                 to="/services"
                 data-testid="hero-services-btn"
@@ -187,13 +189,15 @@ export default function Home() {
             <h2 className="font-serif text-2xl sm:text-4xl lg:text-5xl text-cream leading-tight mb-8">
               {t.home.ctaTitle}
             </h2>
-            <Link
-              to="/book"
+            <a
+              href={whatsappUrl(t.wa.message)}
+              target="_blank"
+              rel="noreferrer"
               data-testid="home-cta-btn"
               className="inline-block rounded-full bg-gold text-onyx px-10 py-4 text-xs uppercase tracking-[0.22em] hover:bg-blush transition-all duration-300"
             >
               {t.home.ctaButton} <ArrowRight size={16} className="inline -mt-0.5" />
-            </Link>
+            </a>
           </Reveal>
         </div>
       </section>

@@ -1,7 +1,6 @@
 ﻿import React from "react";
-import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
-import { IMAGES } from "../data/content";
+import { IMAGES, whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import PageHero, { CtaBand } from "../components/PageHero";
 import Reveal from "../components/Reveal";
@@ -48,12 +47,14 @@ export default function About() {
               </h2>
               <div className="gold-line mb-6" />
               <p className="text-stone-600 leading-relaxed text-lg font-cormorant">{s.body}</p>
-              <Link
-                to="/book"
+              <a
+                href={whatsappUrl(t.wa.message)}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-block mt-8 rounded-full border border-onyx/30 px-8 py-3.5 text-xs uppercase tracking-[0.22em] hover:bg-onyx hover:text-cream transition-all duration-300"
               >
                 {t.about.bookNow}
-              </Link>
+              </a>
             </Reveal>
           </div>
         ))}

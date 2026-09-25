@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X, Globe } from "lucide-react";
-import { BRAND } from "../data/content";
+import { BRAND, whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 
 const ROUTES = [
@@ -9,7 +9,6 @@ const ROUTES = [
   { to: "/about", key: "about" },
   { to: "/services", key: "services" },
   { to: "/gallery", key: "gallery" },
-  { to: "/book", key: "contact" },
 ];
 
 function LangSwitch({ className = "" }) {
@@ -92,13 +91,15 @@ export default function Navbar() {
             </NavLink>
           ))}
           <LangSwitch className="ml-1" />
-          <Link
-            to="/book"
+          <a
+            href={whatsappUrl(t.wa.message)}
+            target="_blank"
+            rel="noreferrer"
             data-testid="nav-book-cta"
             className="ml-1 rounded-full border border-gold/70 text-gold px-6 py-2.5 text-xs uppercase tracking-[0.22em] hover:bg-gold hover:text-onyx transition-all duration-300"
           >
             {t.nav.book}
-          </Link>
+          </a>
         </nav>
 
         <div className="flex items-center gap-4 lg:hidden">
@@ -135,13 +136,15 @@ export default function Navbar() {
               {t.nav[l.key]}
             </NavLink>
           ))}
-          <Link
-            to="/book"
+          <a
+            href={whatsappUrl(t.wa.message)}
+            target="_blank"
+            rel="noreferrer"
             data-testid="mobile-nav-book-cta"
             className="mt-2 text-center rounded-full border border-gold text-gold px-6 py-3 text-xs uppercase tracking-[0.22em]"
           >
             {t.nav.book}
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
