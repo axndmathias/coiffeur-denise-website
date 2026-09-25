@@ -2,13 +2,13 @@
 
 ## 1. Overview
 
-Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerland. Its website presents the studio's services, portfolio, and story, and lets potential brides book appointments. The site replaces an outdated ShowIt-based template ("Sophie Beauty") with a modern, responsive, bilingual experience.
+Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerland. Its website presents the studio's services, portfolio, and story, and directs potential brides to WhatsApp to book appointments. The site replaces an outdated ShowIt-based template ("Sophie Beauty") with a modern, responsive, bilingual experience.
 
 ## 2. Goals
 
 1. Present Coiffeur Denise as a **bridal-first** hair & beauty destination.
 2. Provide real, verified business information (address, phone, social links, hours).
-3. Allow brides to **enquire/book** appointments directly from the site.
+3. Allow brides to **enquire/book** appointments via WhatsApp, with the message pre-filled in the active language.
 4. Offer the site in **German and English** (German is the default).
 5. Be fast, responsive, and visually elegant on all devices.
 
@@ -19,6 +19,7 @@ Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerl
 - No multi-branch management.
 - No blog.
 - No live Instagram feed wiring.
+- No backend, database or enquiry form — the site is fully static and stores no personal data.
 
 ## 4. Target audience / personas
 
@@ -49,32 +50,34 @@ Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerl
 | Facebook | https://www.facebook.com/Www.coiffeur.denise.ch/ |
 | Email | Not provided yet — hidden from the UI until confirmed |
 
-## 7. Service catalogue (indicative — to be confirmed)
+## 7. Service catalogue
+
+Prices are not published: every service is listed with the label "Auf Anfrage" (price on request).
 
 ### Bridal Hair & Beauty
 | Service | Price |
 | --- | --- |
-| Bridal Hair Trial | CHF 95 |
-| Wedding Day — Bride | CHF 250 |
-| Bridesmaid Styling | CHF 125 |
-| Flower Girl Styling | CHF 40 |
-| Wedding Package | On request (travel fees may apply) |
+| Bridal Hair Trial | Auf Anfrage |
+| Wedding Day — Bride | Auf Anfrage |
+| Bridesmaid Styling | Auf Anfrage |
+| Flower Girl Styling | Auf Anfrage |
+| Wedding Package | Auf Anfrage |
 
 ### Special Occasion Hair
 | Service | Price |
 | --- | --- |
-| Makeup + Hair (Ball / Event) | CHF 120 |
-| Occasion Updo | On request |
-| Blow-dry & Styling | On request |
+| Makeup + Hair (Ball / Event) | Auf Anfrage |
+| Occasion Updo | Auf Anfrage |
+| Blow-dry & Styling | Auf Anfrage |
 
 ### Hairdressing
 | Service | Price |
 | --- | --- |
-| Cut & Finish | On request |
-| Colour | On request |
-| Treatment | On request |
+| Cut & Finish | Auf Anfrage |
+| Colour | Auf Anfrage |
+| Treatment | Auf Anfrage |
 
-> Prices shown on the site include the note that they are indicative and to be confirmed.
+> Actual prices are agreed directly with the studio (WhatsApp).
 
 ## 8. Opening hours (displayed; to be confirmed)
 
@@ -97,14 +100,12 @@ Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerl
 | `/about` | About |
 | `/services` | Services |
 | `/gallery` | Gallery |
-| `/book` | Book / Contact |
-| `/admin` | Admin (bookings management — requires backend) |
 
 ### Key features
 - **Bilingual UI (DE/EN)** — persisted in `localStorage` (`cd_lang`), DE default.
 - **Responsive design** — mobile-first, works across breakpoints.
 - **Gallery filters + lightbox.**
-- **Booking enquiry form** — name, email, phone, preferred date/time, service, message.
+- **Booking via WhatsApp** — floating button plus per-service CTAs opening `wa.me` with a pre-filled message in the active language (intents: information, booking, availability).
 - **Language-sensitive content** — all copy in `src/i18n/translations.js`.
 
 ## 10. Content sources
@@ -115,7 +116,7 @@ Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerl
 
 ## 11. Success metrics (future)
 
-- Booking enquiries received via `/book`.
+- WhatsApp conversations started from the site.
 - Site performance (Lighthouse) and mobile usability.
 - Engagement with social links (Instagram/Facebook).
 - Optionally: live gallery from Instagram.
@@ -124,7 +125,5 @@ Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerl
 
 1. Real email address (or confirm none should be shown).
 2. Confirmed full-week opening hours.
-3. Final/live service list and prices.
-4. Real studio photos/logo replacing stock imagery.
-5. Live deployment target (Netlify/Vercel/GitHub Pages) and custom domain.
-6. Decision/restore of bookings backend (FastAPI + MongoDB was removed from this repo).
+3. Real studio photos/logo replacing stock imagery.
+4. Final prices, if the "Auf Anfrage" labels should be replaced by amounts.
