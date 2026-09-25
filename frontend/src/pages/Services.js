@@ -29,12 +29,16 @@ export default function Services() {
             <div data-testid={`service-category-${ci}`} className="grid lg:grid-cols-12 gap-8">
               {/* Category header card */}
               <div className="lg:col-span-4">
-                <div className="relative rounded-2xl overflow-hidden h-56 lg:h-full min-h-[220px] sticky top-28 bg-onyx">
+                <div
+                  className={`relative rounded-2xl overflow-hidden sticky top-28 bg-onyx lg:h-full min-h-[220px] ${
+                    ci <= 2 ? "h-[640px] sm:h-[720px]" : "h-56"
+                  }`}
+                >
                   <img
                     src={cat.image}
                     alt={cat.name}
                     className={`absolute inset-0 w-full h-full object-cover ${
-                      ci === 1 ? "object-[100%_30%]" : ""
+                      ci === 1 ? "lg:object-[100%_30%]" : ""
                     }`}
                   />
                   <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-onyx/90 via-onyx/40 to-transparent" />

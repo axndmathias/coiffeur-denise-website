@@ -103,9 +103,8 @@ export default function Home() {
                     <img
                       src={BRIDE_EXPERIENCE[i].image}
                       alt={BRIDE_EXPERIENCE[i].alt}
-className={`w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ${
-                      i === 1 ? "object-[50%_-15%]" : ""
-                    }`}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      style={i === 2 ? { objectPosition: "50% 100%" } : undefined}
                     />
                   </div>
                   <div className="p-7 flex flex-col flex-1">
