@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Coiffeur Denise</title>
+    <script>
+      sessionStorage.redirect = location.href;
+      var base =
+        location.hostname.indexOf("github.io") > -1 &&
+        location.pathname.indexOf("/coiffeur-denise-website/") === 0
+          ? "/coiffeur-denise-website/"
+          : "/";
+      location.replace(base);
+    </script>
+  </head>
+  <body></body>
+</html>
