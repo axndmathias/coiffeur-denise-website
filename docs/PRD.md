@@ -7,7 +7,7 @@ Coiffeur Denise is a bridal hair & beauty studio located in Romanshorn, Switzerl
 ## 2. Goals
 
 1. Present Coiffeur Denise as a **bridal-first** hair & beauty destination.
-2. Provide real, verified business information (address, phone, social links, hours).
+2. Provide real, verified business information (address, phone, social links, appointment policy).
 3. Allow brides to **enquire/book** appointments via WhatsApp, with the message pre-filled in the active language.
 4. Offer the site in **German and English** (German is the default).
 5. Be fast, responsive, and visually elegant on all devices.
@@ -79,17 +79,9 @@ Prices are not published: every service is listed with the label "Auf Anfrage" (
 
 > Actual prices are agreed directly with the studio (WhatsApp).
 
-## 8. Opening hours (displayed; to be confirmed)
+## 8. Opening hours
 
-| Day | Hours |
-| --- | --- |
-| Monday | By appointment |
-| Tuesday | By appointment |
-| Wednesday | 09:00 – 19:00 |
-| Thursday | By appointment |
-| Friday | 09:00 – 19:00 |
-| Saturday | 09:00 – 14:00 |
-| Sunday | Closed |
+The studio works **by appointment only**. No weekly schedule is published. The site shows a single notice in the footer (DE: "Nach Vereinbarung – bitte kontaktieren Sie uns, um einen Termin zu planen." / EN: "By appointment – please contact us to plan your visit.") and every booking goes through WhatsApp or phone.
 
 ## 9. Features
 
@@ -124,6 +116,5 @@ Prices are not published: every service is listed with the label "Auf Anfrage" (
 ## 12. Open items needing client input
 
 1. Real email address (or confirm none should be shown).
-2. Confirmed full-week opening hours.
-3. Real studio photos/logo replacing stock imagery.
-4. Final prices, if the "Auf Anfrage" labels should be replaced by amounts.
+2. Real studio photos/logo replacing stock imagery.
+3. Final prices, if the "Auf Anfrage" labels should be replaced by amounts.

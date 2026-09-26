@@ -70,7 +70,7 @@ INSTAGRAM_FEED = [ ...urls ]
 ```
 
 ### `translations.js` (bilingual)
-Two parallel trees `de` and `en`, each containing: `nav`, `hero`, `home`, `about`, `services` (with `categories[].items[]` incl. price label), `gallery` (items with category), `wa` (WhatsApp copy + per-service intents), `footer`, `cta`, `hours`.
+Two parallel trees `de` and `en`, each containing: `nav`, `hero`, `home`, `about`, `services` (with `categories[].items[]` incl. price label), `gallery` (items with category), `wa` (WhatsApp copy + per-service intents), `footer`, `cta`, `hours` (a single appointment notice string — not a weekly schedule; the two trees must stay in sync, including image paths and `objectPosition`).
 
 ## Configuration
 

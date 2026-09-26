@@ -6,13 +6,13 @@ A modern, bilingual (DE/EN), responsive marketing website for Coiffeur Denise th
 ## MVP scope — IN
 
 ### Frontend (React)
-- [x] Home page — hero, essence, services preview, portfolio preview, hours
+- [x] Home page — hero, essence, services preview, portfolio preview, appointment notice
 - [x] About page — story, why-choose-us
 - [x] Services page — category/service list with price labels ("Auf Anfrage")
 - [x] Gallery page — filterable gallery + lightbox
 - [x] Booking via WhatsApp — all CTAs open a pre-filled, language-aware chat
 - [x] Navbar with language switch + mobile menu
-- [x] Footer with contact details, hours, map, social icons
+- [x] Footer with contact details, appointment notice, map, social icons
 - [x] Bilingual DE/EN content (DE default), persisted via localStorage
 - [x] Responsive and elegant styling (Tailwind + Framer Motion)
 - [x] Deployed on GitHub Pages with custom domain `coiffeur-denise.ch`

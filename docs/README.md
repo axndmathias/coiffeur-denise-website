@@ -9,6 +9,8 @@ Central documentation for the Coiffeur Denise website (Bridal Hair & Beauty, Rom
 | [PRD](PRD.md) | Product Requirements Document — goals, audience, features, content |
 | [MVP](MVP.md) | MVP scope — what is in/out for the first launch |
 | [ARCHITECTURE](ARCHITECTURE.md) | Tech stack, project structure, data & content model |
+| [BACKLOG](BACKLOG.md) | Open and delivered tasks, with priorities |
+| [RELEASES](RELEASES.md) | Release process (SemVer tags), how to check what is live, rollback |
 
 ## Project at a glance
 
