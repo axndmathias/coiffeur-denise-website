@@ -24,9 +24,16 @@ const root = path.join(__dirname, "..");
 const pkgPath = path.join(root, "package.json");
 const versionPath = path.join(root, "public", "version.json");
 const repoUrl = "https://github.com/axndmathias/coiffeur-denise-website";
-const isWin = process.platform === "win32";
-const npm = isWin ? "npm.cmd" : "npm";
-const npx = isWin ? "npx.cmd" : "npx";
+
+/**
+ * npm and npx are shell scripts (.cmd on Windows) and Node refuses to spawn those
+ * without a shell since the CVE-2024-27980 fix. Calling them through `node` with the
+ * real JS entry point avoids the shell entirely, so messages keep their spaces.
+ */
+const npmCli =
+  process.env.npm_execpath ||
+  path.join(path.dirname(process.execPath), "node_modules", "npm", "bin", "npm-cli.js");
+const ghPagesBin = require.resolve("gh-pages/bin/gh-pages.js");
 
 const dry = process.argv.includes("--dry");
 const positional = process.argv.slice(2).filter((a) => a !== "--dry");
@@ -52,15 +59,42 @@ function git(...args) {
   return execFileSync("git", args, { cwd: root, encoding: "utf8" }).trim();
 }
 
-function run(cmd, args, extraEnv) {
+/** Runs a real executable (git) and fails hard on error. */
+function runBin(cmd, args, extraEnv) {
   const res = spawnSync(cmd, args, {
     cwd: root,
     stdio: "inherit",
-    shell: false,
     env: { ...process.env, ...(extraEnv || {}) },
   });
+  if (res.error) {
+    console.error(fail(`\nNao foi possivel executar ${cmd}: ${res.error.message}`));
+    process.exit(1);
+  }
   if (res.status !== 0) {
     console.error(fail(`\n${cmd} ${args.join(" ")} falhou (codigo ${res.status})`));
+    process.exit(res.status || 1);
+  }
+}
+
+/** Runs a Node script through the current node binary (npm, gh-pages). */
+function run(script, args, extraEnv) {
+  const res = spawnSync(process.execPath, [script, ...args], {
+    cwd: root,
+    stdio: "inherit",
+    env: { ...process.env, ...(extraEnv || {}) },
+  });
+  if (res.error) {
+    console.error(fail(`\nNao foi possivel executar ${script}: ${res.error.message}`));
+    process.exit(1);
+  }
+  if (res.status !== 0) {
+    console.error(fail(`\n${path.basename(script)} ${args.join(" ")} falhou (codigo ${res.status})`));
+    console.error(
+      warn(
+        "\nA tag e o commit ja foram enviados. Para terminar a publicacao desta\n" +
+          "versao, executa manualmente:  npm run build  e depois  npx gh-pages -d build -m \"Deploy <versao>\""
+      )
+    );
     process.exit(res.status || 1);
   }
 }
@@ -165,20 +199,20 @@ fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + "\n", "utf8");
 
 // ---------------------------------------------------------------- commit + tag
 
-run("git", ["add", "public/version.json", "package.json"]);
-run("git", ["commit", "-m", `Release ${tagName}: ${title}`]);
+runBin("git", ["add", "public/version.json", "package.json"]);
+runBin("git", ["commit", "-m", `Release ${tagName}: ${title}`]);
 
 const tagMessage = notes
   ? `${tagName} - ${title}\n\n${notes}\n\nCommit: ${sha}`
   : `${tagName} - ${title}\n\nCommit: ${sha}`;
-run("git", ["tag", "-a", tagName, "-m", tagMessage]);
-run("git", ["push", "--follow-tags", "origin", branch]);
+runBin("git", ["tag", "-a", tagName, "-m", tagMessage]);
+runBin("git", ["push", "--follow-tags", "origin", branch]);
 
 // ---------------------------------------------------------------- build + deploy
 
 console.log(`\n${c.bold}Build e deploy...${c.reset}\n`);
-run(npm, ["run", "build"], { CI: "true" });
-run(npx, ["gh-pages", "-d", "build", "-m", `Deploy ${tagName} (${sha})`]);
+run(npmCli, ["run", "build"], { CI: "true" });
+run(ghPagesBin, ["-d", "build", "-m", `Deploy ${tagName} (${sha})`]);
 
 // ---------------------------------------------------------------- report
 

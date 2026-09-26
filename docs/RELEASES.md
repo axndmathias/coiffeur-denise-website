@@ -55,6 +55,10 @@ Abre **https://coiffeur-denise.ch/version.json**:
 { "version": "v1.1.0", "commit": "6bc2c46", "date": "2026-09-25", "title": "7 avaliacoes do Google" }
 ```
 
+O campo `commit` e o ultimo commit de **codigo** da versao. O commit seguinte
+(`Release vX.Y.Z: <titulo>`) so acrescenta a `version.json` e a versao do
+`package.json`, por isso o sitio visivel e identico nos dois.
+
 Historico completo de versoes:
 
 ```bash
