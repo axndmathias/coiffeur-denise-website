@@ -86,8 +86,6 @@ const de = {
     portfolioEyebrow: "Portfolio",
     portfolioTitle: "Momente für die Ewigkeit",
     fullGallery: "Ganze Galerie",
-    hoursTitle: "Öffnungszeiten",
-    hoursSub: "Ich freue mich auf Ihren Besuch.",
     kundenEyebrow: "Kundenstimmen",
     kundenTitle: "Was meine Kundinnen über mich sagen",
     testimonials: [
@@ -381,8 +379,6 @@ const en = {
     portfolioEyebrow: "Portfolio",
     portfolioTitle: "Moments for Eternity",
     fullGallery: "Full gallery",
-    hoursTitle: "Studio Hours",
-    hoursSub: "I look forward to welcoming you.",
     kundenEyebrow: "Testimonials",
     kundenTitle: "What my clients say about me",
     testimonials: [
