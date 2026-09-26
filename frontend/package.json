@@ -23,6 +23,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
+    "release": "node scripts/release.js",
+    "release:dry": "node scripts/release.js --dry",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
