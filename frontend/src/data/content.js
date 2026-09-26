@@ -22,23 +22,6 @@ export const BRAND = {
   mapQuery: "Alleestrasse 58, 8590 Romanshorn, Switzerland",
 };
 
-export const IMAGES = {
-  hero:
-    "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtYWtldXAlMjBhcnRpc3QlMjBlZGl0b3JpYWwlMjBiZWF1dHklMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODk3MjQ2Nzl8MA&ixlib=rb-4.1.0&q=85",
-  essence:
-    "https://images.pexels.com/photos/39142948/pexels-photo-39142948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  redCarpet:
-    "https://images.unsplash.com/photo-1779763320302-767ad149e77b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtYWtldXAlMjBhcnRpc3QlMjBlZGl0b3JpYWwlMjBiZWF1dHklMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODk3MjQ2Nzl8MA&ixlib=rb-4.1.0&q=85",
-  bridal:
-    "https://images.unsplash.com/photo-1780540631334-84960e9b1f58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBtYWtldXAlMjBhcnRpc3QlMjBlZGl0b3JpYWwlMjBiZWF1dHklMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODk3MjQ2Nzl8MA&ixlib=rb-4.1.0&q=85",
-  serviceGlam:
-    "https://images.pexels.com/photos/26850950/pexels-photo-26850950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  serviceEditorial:
-    "https://images.pexels.com/photos/10464307/pexels-photo-10464307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  serviceBrushes:
-    "https://images.pexels.com/photos/13599849/pexels-photo-13599849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-};
-
 export const INSTAGRAM_FEED = [
   `${process.env.PUBLIC_URL}/foto_61.jpg`,
   `${process.env.PUBLIC_URL}/foto_132.jpg`,

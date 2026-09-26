@@ -1,6 +1,6 @@
-﻿import React from "react";
+import React from "react";
 import { Check } from "lucide-react";
-import { IMAGES, whatsappUrl } from "../data/content";
+import { whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import PageHero, { CtaBand } from "../components/PageHero";
 import Reveal from "../components/Reveal";

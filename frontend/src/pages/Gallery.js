@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { X } from "lucide-react";
-import { IMAGES } from "../data/content";
+
 import { useLang } from "../i18n/LanguageContext";
 import PageHero, { CtaBand } from "../components/PageHero";
 import Reveal from "../components/Reveal";

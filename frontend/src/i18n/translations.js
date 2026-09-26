@@ -1,6 +1,5 @@
 // Bilingual content for Coiffeur Denise. German (de) is the default.
 // Shared, non-translatable data (contact, images, social) lives in content.js.
-import { IMAGES } from "../data/content";
 
 // ---------- GERMAN (default) ----------
 const de = {
@@ -450,28 +449,28 @@ const en = {
         title: "The Essence of Coiffeur Denise",
         body:
           "Coiffeur Denise is far more than craftsmanship — it's lived passion from first-hand experience. I know from my own experience what a wedding day feels like, what dreams come with it, and how important every detail is. With this personal sensitivity, uncompromising precision, and an eye for aesthetics, I accompany you in an exclusive atmosphere on your way to an unforgettable appearance.",
-        image: IMAGES.bridal,
+        image: `${process.env.PUBLIC_URL}/foto_39.jpg`,
       },
       {
         id: "occasion",
         title: "Made for Your Big Day",
         body:
           "Because I have walked this path as a bride myself and mastered it as an experienced hairdresser, I know exactly what you need. From the first consultation and trial styling to the final touch on your big day, I take all the worries off your shoulders. With craftsmanship sensitivity and deep understanding, I guide you step by step — so you can simply lean back, glow, and enjoy your moment.",
-        image: IMAGES.serviceGlam,
+        image: `${process.env.PUBLIC_URL}/foto_4.jpg`,
       },
       {
         id: "red-carpet",
         title: "Aisle-Ready Glamour",
         body:
           "The moment you enter the room and all eyes turn to you is unforgettable. With my experience as a hairdresser and the deep empathy of a former bride, I make sure you walk that aisle full of pride, flawless beauty, and inner calm. From dream weddings to exclusive evening events — I make you shine.",
-        image: IMAGES.redCarpet,
+        image: `${process.env.PUBLIC_URL}/foto_107.jpg`,
       },
       {
         id: "signature",
         title: "Unveil Your Signature Look",
         body:
           "Every bride is unique — and so is her styling. I help you find and create the look that perfectly reflects your personal style and highlights your best features. Whether soft romantic waves, an elegant updo, or a flawless finish: I bring your vision to life with all my heart and precision.",
-        image: IMAGES.essence,
+        image: `${process.env.PUBLIC_URL}/foto_102.jpg`,
       },
     ],
     whyChoose: [
@@ -513,7 +512,7 @@ const en = {
     categories: [
       {
         name: "Bridal Hair & Beauty",
-        image: IMAGES.bridal,
+        image: `${process.env.PUBLIC_URL}/foto_95.jpg`,
         items: [
           { name: "Bridal Hair Trial", desc: "Pre-wedding consultation & trial styling.", price: "Auf Anfrage", waIntent: "info" },
           { name: "Wedding Day - Bride", desc: "Complete bridal hair styling for your day.", price: "Auf Anfrage", waIntent: "book" },
@@ -524,7 +523,7 @@ const en = {
       },
       {
         name: "Special Occasion Hair",
-        image: IMAGES.serviceGlam,
+        image: `${process.env.PUBLIC_URL}/foto_801.jpg`,
         items: [
           { name: "Makeup + Hair (Ball / Event)", desc: "Hair styling & makeup for balls and events.", price: "Auf Anfrage", waIntent: "book" },
           { name: "Occasion Updo", desc: "Elegant updo for special occasions.", price: "Auf Anfrage", waIntent: "availability" },
@@ -533,7 +532,7 @@ const en = {
       },
       {
         name: "Hairdressing",
-        image: IMAGES.serviceEditorial,
+        image: `${process.env.PUBLIC_URL}/foto_921.jpg`,
         items: [
           { name: "Cut & Finish", desc: "Precision cut and style.", price: "Auf Anfrage", waIntent: "availability" },
           { name: "Colour", desc: "Full colour or highlights.", price: "Auf Anfrage", waIntent: "availability" },
@@ -549,18 +548,19 @@ const en = {
       "A curated collection of my signature looks — from bridal glam to red-carpet ready.",
     filters: ["All Works", "Bridal Hair", "Updos & Styling", "Hair & Makeup", "Special Occasions"],
     items: [
-      { src: IMAGES.bridal, category: "Bridal Hair", title: "The Bride" },
-      { src: IMAGES.essence, category: "Updos & Styling", title: "Timeless Updo" },
-      { src: IMAGES.redCarpet, category: "Bridal Hair", title: "Veiled Elegance" },
-      { src: IMAGES.serviceEditorial, category: "Special Occasions", title: "Evening Glamour" },
-      { src: IMAGES.serviceGlam, category: "Hair & Makeup", title: "Bridal Party" },
+      { src: `${process.env.PUBLIC_URL}/foto_56.jpg`, category: "Bridal Hair", title: "The Bride" },
+      { src: `${process.env.PUBLIC_URL}/foto_71.jpg`, category: "Updos & Styling", title: "Timeless Updo", objectPosition: "35% 50%" },
+      { src: `${process.env.PUBLIC_URL}/foto_126.jpg`, category: "Bridal Hair", title: "Veiled Elegance" },
+      { src: `${process.env.PUBLIC_URL}/foto_86h.jpg`, category: "Special Occasions", title: "Evening Glamour", objectPosition: "30% 50%" },
+      { src: `${process.env.PUBLIC_URL}/foto_132.jpg`, category: "Hair & Makeup", title: "Bridal Party" },
       {
-        src: "https://images.unsplash.com/photo-1590156351935-500f39544b27?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBjb3NtZXRpY3MlMjBicnVzaGVzJTIwYmVhdXR5JTIwcHJvZHVjdHxlbnwwfHx8fDE3ODk3MjQ2ODV8MA&ixlib=rb-4.1.0&q=85",
+        src: `${process.env.PUBLIC_URL}/foto_70.jpg`,
         category: "Hair & Makeup",
         title: "The Artist's Touch",
+        className: "object-center",
       },
-      { src: IMAGES.hero, category: "Special Occasions", title: "Golden Hour" },
-      { src: IMAGES.serviceBrushes, category: "Updos & Styling", title: "Finishing Details" },
+      { src: `${process.env.PUBLIC_URL}/foto_129.jpg`, category: "Special Occasions", title: "Golden Hour" },
+      { src: `${process.env.PUBLIC_URL}/foto_55.jpg`, category: "Updos & Styling", title: "Finishing Details" },
     ],
   },
   footer: {

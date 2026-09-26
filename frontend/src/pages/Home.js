@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Check } from "lucide-react";
-import { IMAGES, BRIDE_EXPERIENCE, PORTFOLIO, whatsappUrl } from "../data/content";
+import { BRIDE_EXPERIENCE, PORTFOLIO, whatsappUrl } from "../data/content";
 import { useLang } from "../i18n/LanguageContext";
 import Reveal from "../components/Reveal";
 import Testimonials from "../components/Testimonials";

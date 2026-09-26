@@ -49,8 +49,10 @@ Peso actual medido: 12,65 MB em 52 ficheiros, todos servidos de `public/` com no
 
 ### Conteúdo
 - [ ] **B-13 · P3** Decidir se o feed do Instagram volta ao rodapé (foi removido em favor da galeria)
+- [ ] **B-18 · P3** `alt` das imagens em `content.js` só existe em alemão (dados partilhados, não traduzidos) — em inglês os leitores de ecrã recebem descrição alemã. Ex: "Denise beim Styling einer Braut am Hochzeitstag"
 
 ## Entregue
 
 - [x] **B-01 · P1** Corrigir a tabela semanal de horários do `docs/PRD.md` (§8) e os open items (§12) — `v1.1.2`
 - [x] **B-02 · P1** Ligar `BACKLOG` e `RELEASES` no índice `docs/README.md` — `v1.1.2`
+- [x] **B-14 · P1** Galeria e Services em inglês mostravam fotos de stock em vez das reais — 15 imagens corrigidas e o export `IMAGES` (7 URLs de Unsplash/Pexels) removido — `v1.2.0`
