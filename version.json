@@ -1,6 +1,6 @@
 {
-  "version": "v1.1.1",
-  "commit": "af96a32",
+  "version": "v1.1.2",
+  "commit": "1b2e814",
   "date": "2026-09-26",
-  "title": "Corrige execucao de npm e gh-pages no Windows"
+  "title": "Backlog, indice de docs e horarios do PRD"
 }
