@@ -41,6 +41,7 @@ Peso actual medido: 12,65 MB em 52 ficheiros, todos servidos de `public/` com no
 - [ ] **B-15 · P2** Apagar as 19 imagens não referenciadas — **−3,71 MB** em cada deploy. Recuperáveis pelo histórico Git se algum dia forem precise
 - [ ] **B-16 · P2** Passar as imagens para `src/assets/` com pastas por finalidade (`bride/`, `portfolio/`, `services/`, `testimonials/`, `hero/`, `about/`) e `import`. Dá hash no nome (cache busting — hoje trocar uma foto não muda o URL, por isso o browser e o CDN continuam a servir a antiga) e elimina o `${process.env.PUBLIC_URL}`, que foi a causa do bug de caminhos do `844ed58`
 - [ ] **B-17 · P2** Converter para WebP e redimensionar. Alvo: Home abaixo de 1,5 MB
+- [ ] **B-19 · P2** `Gallery.js` nunca lê `objectPosition` nem `className` dos itens — a grelha usa sempre `w-full object-cover` fixo (linhas 56 e 85). Os 3 ajustes de recorte curados (`foto_71` "35% 50%", `foto_86h` "30% 50%", `foto_70` `object-center`) são dados mortos em ambos os idiomas, por isso certas fotos ficam cortadas ao acaso
 
 ### Ferramentas
 - [ ] **B-09 · P2** Verificar se `npm start` funciona em Node 24 sem `--openssl-legacy-provider`; se não, criar script `dev`
